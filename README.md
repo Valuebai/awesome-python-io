@@ -1,4 +1,4 @@
-# Python十分钟入门指南
+# Python十分钟入门指南/技术图谱
 ![Author](https://img.shields.io/badge/Author-Escape-blue.svg)
 ![Build](https://img.shields.io/badge/Build-passing-brightgreen.svg)
 ![Languages](https://img.shields.io/badge/Languages-Python3.7-green.svg)
@@ -30,3 +30,5 @@
 ### 学习指南
 #### Django基础
 - **[【Django基础\(1\): Model模型的介绍与设计】](https://mp.weixin.qq.com/s/nmwikIXGwVFN6e0E5FlPEQ)**
+
+- [《Python知识手册》](http://liyangbit.com/python-knowledge-handbook/)
