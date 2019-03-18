@@ -1,5 +1,5 @@
 <!-- TOC -->
-
+关于python的面试题https://github.com/kenwoodjw/python_interview_question
 - [Python基础](#python基础)
     - [文件操作](#文件操作)
         - [1.有一个jsonline格式的文件file.txt大小约为10K](#1有一个jsonline格式的文件filetxt大小约为10k)
