@@ -32,3 +32,7 @@
 - **[【Django基础\(1\): Model模型的介绍与设计】](https://mp.weixin.qq.com/s/nmwikIXGwVFN6e0E5FlPEQ)**
 
 - [《Python知识手册》](http://liyangbit.com/python-knowledge-handbook/)
+
+
+========================================================
+python天天练习，每天都要写代码，即使是手动抄别人的代码!
