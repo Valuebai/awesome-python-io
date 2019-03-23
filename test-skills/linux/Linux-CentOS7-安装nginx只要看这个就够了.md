@@ -3,11 +3,12 @@
 [nginx服务器详细安装过程（使用yum 和 源码包两种安装方式，并说明其区别）](https://segmentfault.com/a/1190000007116797)
 
 ## 一、yum安装方式
-
+```
 官网的nginx install方式：一定要看2个，不然会被坑的
 1）http://nginx.org/en/linux_packages.html#RHEL-CentOS  （没有说要替换$releasever参数为7）
 2）https://www.nginx.com/resources/wiki/start/topics/tutorials/install/  （没有说要yum install yum-utils）
 P.S. 一般安装某个软件，跟进官方教程是OK的
+```
 
 ### 正确的yum步骤（根据官网文档整理）：
 
