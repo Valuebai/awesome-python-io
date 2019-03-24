@@ -1,15 +1,16 @@
+[TOC]
 ### 安装前：简单了解下2种安装方式，yum和源码手动安装的区别
 
 [nginx服务器详细安装过程（使用yum 和 源码包两种安装方式，并说明其区别）](https://segmentfault.com/a/1190000007116797)
 
 ## 一、yum安装方式
+
 ```
 官网的nginx install方式：一定要看2个，不然会被坑的
 1）http://nginx.org/en/linux_packages.html#RHEL-CentOS  （没有说要替换$releasever参数为7）
 2）https://www.nginx.com/resources/wiki/start/topics/tutorials/install/  （没有说要yum install yum-utils）
 P.S. 一般安装某个软件，跟进官方教程是OK的
 ```
-
 ### 正确的yum步骤（根据官网文档整理）：
 
 ### 第一步 – 添加Nginx存储库
@@ -116,6 +117,7 @@ P.S. Nginx启动报端口被占用也是在这里改的
 
 * * *
 ## 二、源代码手动安装 
+### 参考这2个
 
 [CentOS7安装Nginx及配置](https://www.jianshu.com/p/9a6c96ecc8b8)
 
