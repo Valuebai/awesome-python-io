@@ -17,73 +17,72 @@
 
 
 
-如何应对反爬虫
-1.伪造headers信息
-2.ip代理
-3.限制请求频率
-4.使用模拟器模仿浏览器行为
+##### 如何应对反爬虫
+
+1. 伪造headers信息
+2. ip代理
+3. 限制请求频率
+4. 使用模拟器模仿浏览器行为
 elenium控制PhantomJS登录微博
+5. 适当人工干预
 
-5.适当人工干预
-
-常见爬虫框架
-scrapy,pyspider,selenium PhantonJS
+##### 常见爬虫框架scrapy,pyspider,selenium PhantonJS
 
 
-1.常用的HTTP库和工具具有哪些？
-a)postman 谷歌浏览器检查
-2.常用的python解析html的库有哪些？
-a)beautifulsoup4
-b)lxml 
-c)re
-3.常见的爬虫框架和工具具有哪些？
-scrapy,pyspider,selenium PhantonJS
-a)
-4.写出遇到过的反爬虫措施以及应对应对案。
-a)
-5.看过哪些爬虫相关的书？
-6.如何提高爬取效率？
-增加请求并发数: CONCURRENT_REQUESTS = 100 
-增加线程池数量：REACTOR_THREADPOOL_MAXSIZE = 20
-降低log级别：LOG_LEVEL = ‘INFO'
-禁用cookies： COOKIES_ENABLED = False 
-禁止重试：RETRY_ENABLED = False 
-禁止重定向：REDIRECT_ENABLED = False
+1. 常用的HTTP库和工具具有哪些a)postman 谷歌浏览器检查
+2. 常用的python解析html的库有哪些？a)beautifulsoup4b)lxml c)re
+3. 常见的爬虫框架和工具具有哪些？
+scrapy,pyspider,selenium,PhantonJS
+4. 写出遇到过的反爬虫措施以及应对应对案
+5. 看过哪些爬虫相关的书？
+6. 如何提高爬取效率？
+* 增加请求并发数: CONCURRENT_REQUESTS = 100 
+
+* 增加线程池数量：REACTOR_THREADPOOL_MAXSIZE = 20
+
+* 降低log级别：LOG_LEVEL = ‘INFO'
+
+* 禁用cookies： COOKIES_ENABLED = False 
+
+* 禁止重试：RETRY_ENABLED = False 
+
+* 禁止重定向：REDIRECT_ENABLED = False
+
 减少超时等待：DOWNLOAD_TIMEOUT = 15
 
 
-7.robots.txt是什么？
+7. robots.txt是什么？
 爬虫协议,网站通过robots协议告诉搜索引擎哪些页面抓取,哪些页面不能抓取
-8.python2和 python3的区别
+8. python2和 python3的区别
 python2 raw_input         python3 input 
 python2 定义编码格式,      python3 默认utf-8编码
 python3性能比python2慢
 Python2 print               python3 print()
-9.python中的enumerate有何作用？
+9. python中的enumerate有何作用？
 a)内置函数,枚举,列举的意思,对于可迭代对象,将其组成一个索引序列,同时获得索引和值.我举个例子
 b)	list1 = ["这", "是", "一个", "测试"] for index, item in 	enumerate(list1): print index, item
 0 这 1 是 2 一个 3 测试
 
-10.说明python的 import机制
+10. 说明python的 import机制
 a) Python中所有加载到内存的模块都放在sys.modules。当import一个模块时首先会在这个列表中查找是否已经加载了此模块，加载了则只是将模块的名字加入到正在调用import的模块的Local名字空间中。如果没有加载则从sys.path目录中按照模块名称查找模块文件，模块文件可以是py、pyc、pyd，找到后将模块载入内存，并加入到sys.modules中，并将名称导入到当前的Local名字空间。
 
-11.列出常见的关系型数据库和非关系型数据库。
+11. 列出常见的关系型数据库和非关系型数据库。
 
-12.HTTP和 HTTPS有何区别？
+12. HTTP和 HTTPS有何区别？
 超文本传输协议,安全超文本传输协议
 http    htpps
 端口	80			443
 有CA证书
 明文		安全,ssl加密
 
-13.GET和 POST方法法有何区别？
+13. GET和 POST方法法有何区别？
 get没有body,post有body
-14.scrapy如何实现中断后继续爬取？
+14. scrapy如何实现中断后继续爬取？
 scrapy-redis 自动实现, scrapy jobdir
 
-15.简述scrapy的架构和爬取流程。
+15. 简述scrapy的架构和爬取流程。
 架构,items,middlewares,pipilines,settings,spider.
 中间件:介入到scrapy的spider处理机制的钩子框架,中间件用来处理发送给spider的response及spider产生的item和request
 
-16.爬虫状态持久化
+16. 爬虫状态持久化
  	-s JOBDIR=/tmp/qianmu
