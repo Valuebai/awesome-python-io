@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e319fee-b90d-49ea-8829-d7928cf3ff75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/database.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-code/test_dbutils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-code/test_wechat_template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-skills/mysql/DBUtils/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-skills/mysql/pymysql_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-code/test_flask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-skills/test-api/httprunner/httprunner测试框架" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-skills/test-api/httprunner/如何优雅地使用httprunner进行接口测试.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/awesome-python-io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/awesome-python-io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday" beforeDir="false" afterPath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday/py3/Iciba.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday/py3/Iciba.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday/py3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday/py3/main.py" afterDir="false" />
     </list>
@@ -33,11 +31,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday/py3/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            <state relative-caret-position="440">
+              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="44">
+                <caret line="2" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-skills/test-api/httprunner/如何优雅地使用httprunner进行接口测试.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="242">
+                <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-skills/test-api/httprunner/httprunner测试框架">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-code/test_wechat_template.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday/py3/Iciba.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="676">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-code/test_flask.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -52,7 +120,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,7 +129,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/python-interview/Python面试题目更新--天天练.md" />
         <option value="$PROJECT_DIR$/test-skills/linux/【Linux-CentOS7-安装nginx】只要看这个就够了.md" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.md" />
         <option value="$PROJECT_DIR$/test-skills/linux/Linux-CentOS7-安装nginx只要看这个就够了.md" />
         <option value="$PROJECT_DIR$/test-skills/linux/Linux-CentOS7-安装uWSGI只要看这个就够了.md" />
         <option value="$PROJECT_DIR$/test-skills/linux/Linux-CentOS7-安装mysql.md" />
@@ -90,15 +157,20 @@
         <option value="$PROJECT_DIR$/test-code/test_dbutils.py" />
         <option value="$PROJECT_DIR$/test-code/test_wechat_template.py" />
         <option value="$PROJECT_DIR$/test-skills/mysql/DBUtils/demo.py" />
+        <option value="$PROJECT_DIR$/test-code/test_flask.py" />
         <option value="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday/py3/main.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.md" />
+        <option value="$PROJECT_DIR$/test-skills/test-api/httprunner/如何优雅地使用httprunner进行接口测试.md" />
+        <option value="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday/py3/Iciba.py" />
+        <option value="$PROJECT_DIR$/test-skills/test-api/httprunner/httprunner测试框架" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="612" />
-    <option name="y" value="33" />
-    <option name="width" value="1443" />
-    <option name="height" value="1017" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -108,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,12 +190,25 @@
             <path>
               <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="test-code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
               <item name="test-skills" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
+              <item name="test-skills" type="462c0819:PsiDirectoryNode" />
+              <item name="test-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
+              <item name="test-skills" type="462c0819:PsiDirectoryNode" />
+              <item name="test-api" type="462c0819:PsiDirectoryNode" />
+              <item name="httprunner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
@@ -151,35 +235,41 @@
               <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
+            <path>
+              <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/wechat-iciba-everyday" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test-skills/test-api/httprunner" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\mycode\awesome-python-io\test-skills" />
-      <recent name="C:\Users\Administrator\Desktop\awesome-python-io\test-skills" />
-      <recent name="C:\mycode\awesome-python-io\python-interview" />
-      <recent name="C:\mycode\awesome-python-io\test-skills\mysql" />
-      <recent name="C:\mycode\awesome-python-io\test-skills\api-test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\mycode\awesome-python-io\config" />
       <recent name="C:\mycode\awesome-python-io\test-skills\linux" />
       <recent name="C:\Users\Administrator\Desktop\awesome-python-io\test-skills" />
       <recent name="C:\Users\Administrator\Desktop\awesome-python-io\test-skills\mysql" />
       <recent name="C:\Users\Administrator\Desktop\awesome-python-io\python-roadmap" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mycode\awesome-python-io\test-skills\test-api\httprunner" />
+      <recent name="C:\mycode\awesome-python-io\test-skills" />
+      <recent name="C:\Users\Administrator\Desktop\awesome-python-io\test-skills" />
+      <recent name="C:\mycode\awesome-python-io\python-interview" />
+      <recent name="C:\mycode\awesome-python-io\test-skills\mysql" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -194,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test_flask">
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="awesome-python-io" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,28 +321,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday/py3/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_aaa" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="awesome-python-io" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test-code/test_aaa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,13 +373,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_flask" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="awesome-python-io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test-code/test_flask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_flask" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.demo" />
         <item itemvalue="Python.test_dbutils" />
         <item itemvalue="Python.test_dbs" />
-        <item itemvalue="Python.test_aaa" />
       </list>
     </recent_temporary>
   </component>
@@ -345,12 +435,14 @@
       <workItem from="1555294179901" duration="730000" />
       <workItem from="1555318393268" duration="198000" />
       <workItem from="1555318619516" duration="341000" />
-      <workItem from="1555319019133" duration="3182000" />
+      <workItem from="1555319019133" duration="6074000" />
+      <workItem from="1555743722450" duration="33041000" />
+      <workItem from="1555930304389" duration="2937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77493000" />
+    <option name="totallyTimeSpent" value="116363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,22 +454,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19919029" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13553895" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3488372" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.3488372" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46714032" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3285968" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.17761989" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3291592" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50040483" side_tool="true" weight="0.3488372" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -457,21 +549,11 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_flask.coverage" NAME="test_flask Coverage Results" MODIFIED="1555490849073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
     <SUITE FILE_PATH="coverage/awesome_python_io$demo.coverage" NAME="demo Coverage Results" MODIFIED="1555411973942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-skills/mysql/DBUtils" />
     <SUITE FILE_PATH="coverage/awesome_python_io$main.coverage" NAME="main Coverage Results" MODIFIED="1555416806616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday/py3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../architect-awesome/README.md" />
-    <entry file="file://$PROJECT_DIR$/test-skills/network/网络基础/01.请求网络过程.md">
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python-interview/《Python程序员面试算法宝典》-百度云链接.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python-ide/start_jupyter_notebook.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -483,7 +565,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="220">
@@ -494,13 +575,9 @@
           </second_editor>
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test-skills/linux/Linux-CentOS7-安装nginx只要看这个就够了.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1848">
@@ -509,6 +586,11 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -782,16 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/test_wechat_template.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-code/test_logging2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -833,9 +905,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/test_flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-skills/test-api/httprunner/如何优雅地使用httprunner进行接口测试.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="242">
+            <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/test_wechat_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday/py3/Iciba.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="676">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -844,8 +958,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday/py3/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="440">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-skills/test-api/httprunner/httprunner测试框架">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
         </state>
       </provider>
     </entry>
