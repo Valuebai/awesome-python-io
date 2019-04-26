@@ -5,6 +5,9 @@
 ![License](https://img.shields.io/badge/License-MIT-orange.svg)
 ![Contributions](https://img.shields.io/badge/Contributions-welcome-ff69b4.svg)
 
+我的学习记录，将学习Python，Test过程中遇到的好项目，好技能，好分享记录下来，方便自己查找使用，也希望对你有帮助~
+
+
 ## 0. 学习路线
 ### Python 学习路径图/思维导图（待更新）
 ### Python 开发应用/职业规划选择
