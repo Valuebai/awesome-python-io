@@ -7,6 +7,7 @@
 
 我的学习记录，将学习Python，Test过程中遇到的好项目，好技能，好分享记录下来，方便自己查找使用，也希望对你有帮助~
 
+the roadmap of my study and learn from others
 
 ## 0. 学习路线
 ### Python 学习路径图/思维导图（待更新）
