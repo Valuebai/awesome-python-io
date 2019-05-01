@@ -236,14 +236,7 @@ local.properties
 *.idb
 *.pdb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+
 
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
@@ -282,6 +275,8 @@ Temporary Items
 .idea/**/dictionaries
 .idea/**/shelf
 
+
+# 忽略系统默认生成的文件
 .idea/awesome-python-io.iml
 .idea/encodings.xml
 .idea/markdown-navigator.xml
@@ -295,6 +290,7 @@ Temporary Items
 .idea/**/*.xml
 
 # Sensitive or high-churn files
+
 .idea/**/dataSources/
 .idea/**/dataSources.ids
 .idea/**/dataSources.local.xml
@@ -335,4 +331,5 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+# 忽略测试代码-整个文件夹
 /test-ex-do-no-git/
