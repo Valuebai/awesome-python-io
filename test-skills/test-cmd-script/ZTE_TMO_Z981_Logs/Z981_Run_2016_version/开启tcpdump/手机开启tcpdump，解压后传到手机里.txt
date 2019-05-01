@@ -1,0 +1,10 @@
+adb push XXX /system/xbin   //XXX为tcpdum文件
+
+开启命令：
+进入adb shell后直接运行下面的命令
+chmod +x /system/xbin
+
+
+adb shell进入手机，使用以下命令启动抓包(最后一个参数是指定抓包结果在手机上的保存路径，可根据需要进行修改)：
+tcpdump -i any -s 0 -w /sdcard/any.pcap
+测试结束后ctrl+c停止抓包。
