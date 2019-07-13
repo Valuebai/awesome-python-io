@@ -333,3 +333,5 @@ fabric.properties
 
 # 忽略测试代码-整个文件夹
 /test-ex-do-no-git/
+/test-code/webspider/testBeauSoup_Save.xls
+/test-code/dblog.txt
