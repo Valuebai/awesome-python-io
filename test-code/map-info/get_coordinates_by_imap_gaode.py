@@ -4,7 +4,7 @@
 @IDE    ：PyCharm
 @Author ：LuckyHuibo
 @Date   ：2019/7/13 13:28
-@Desc   ：
+@Desc   ：Passed，可以直接拿来用
 =================================================='''
 import requests
 
