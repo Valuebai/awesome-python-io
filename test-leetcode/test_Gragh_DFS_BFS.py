@@ -4,7 +4,7 @@
 @IDE    ：PyCharm
 @Author ：LuckyHuibo
 @Date   ：2019/7/17 15:07
-@Desc   ：DFS、BFS深度优先搜索和广州优先搜索
+@Desc   ：图的DFS、BFS，深度优先搜索和广度优先搜索
 =================================================='''
 
 
@@ -14,7 +14,6 @@ class Gragh():
         :param nodes: 表示点
         :param sides: 表示边
         """
-
         # self.sequence是字典，key是点，value是与key相连接的点
         self.sequence = {}
         # self.side是临时变量，主要用于保存与指定点相连接的点
