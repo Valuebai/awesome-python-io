@@ -11,6 +11,7 @@
 class Gragh():
     def __init__(self, nodes, sides):
         """
+        因为传入的是图的节点和边，需要把它构建成字典（当然，也可以一开始就说字典形式）
         :param nodes: 表示点
         :param sides: 表示边
         """
