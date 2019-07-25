@@ -11,6 +11,7 @@ list_result：记录遍历顺序
 list_queue：临时列表，充当队列或者堆栈
 list_closed：记录返回过的节点数据
 =================================================='''
+import pysnooper
 
 
 def bfs(graph, s):
@@ -43,6 +44,7 @@ def bfs(graph, s):
     return result
 
 
+@pysnooper.snoop(r'dfs.log', watch=('result', 'queue'), prefix='dfs函数测试=')
 def dfs(graph, s):
     """
     深度优先算法实现，使用临时queue做堆栈
@@ -91,6 +93,7 @@ if __name__ == "__main__":
     import time
 
     start = time.perf_counter()
+
     print('run dfs:', dfs(graph, 1))
     end = time.perf_counter()
     print("run dfs time is:", end - start)
