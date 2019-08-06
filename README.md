@@ -40,3 +40,10 @@ the roadmap of my study and learn from others
 
 ========================================================
 python天天练习，每天都要写代码，即使是手动抄别人的代码!
+
+
+### requirements.txt
+- 生成指南：
+- 第一步：安装包 pip install pipreqs
+- 第二步：在对应路径cmd，输入：pipreqs ./ --encoding=utf8 避免中文路径报错
+- 第三步：下载该代码后直接pip install -r requirements.txt
