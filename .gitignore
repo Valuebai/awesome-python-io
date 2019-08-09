@@ -333,12 +333,12 @@ fabric.properties
 
 # 忽略测试代码-整个文件夹
 /test-ex-do-no-git/
-/test-code/webspider/testBeauSoup_Save.xls
+/web_spider/testBeauSoup_Save.xls
 /test-code/dblog.txt
 /common-error/home/
 /test-code/_trial_temp/
 /test-leetcode/dfs.log
 /learn-python/
-/test-code/webspider/spider/
-/test-code/webspider/cookie.json
-/test-code/webspider/geckodriver.log
+/web_spider/spider/
+/web_spider/cookie.json
+/web_spider/geckodriver.log
