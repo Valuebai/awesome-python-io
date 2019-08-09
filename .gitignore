@@ -339,3 +339,6 @@ fabric.properties
 /test-code/_trial_temp/
 /test-leetcode/dfs.log
 /learn-python/
+/test-code/webspider/spider/
+/test-code/webspider/cookie.json
+/test-code/webspider/geckodriver.log
