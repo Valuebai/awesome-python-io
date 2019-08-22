@@ -343,3 +343,6 @@ fabric.properties
 /web_spider/cookie.json
 /web_spider/geckodriver.log
 /test-database/student.xlsx
+/test-database/qa_user_data.xlsx
+/python-hack/
+/test-code/output/

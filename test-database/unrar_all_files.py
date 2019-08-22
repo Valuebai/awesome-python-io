@@ -67,3 +67,27 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+"""关于rarfile和unrar模块的更多学习
+>>> from unrar import rarfile  #导入rarfile，处理rar文件
+>>> rar = rarfile.RarFile('sample.rar')  #读取rar文件
+>>> rar.namelist() #列出rar压缩文件中的文件列表
+[u'test_file.txt']
+>>> rar.printdir() #打印rar压缩文件中的文件列表
+File Name                                             Modified             Size
+test_file.txt                                  2013-04-14 08:20:28           17
+>>> rar.testrar()
+>>> info = rar.infolist()[0] #通过索引获取压缩文件中的文件
+>>> info.filename #获取压缩文件名
+u'test_file.txt'
+>>> info.file_size #获取压缩文件大小
+17L
+>>> info.date_time #获取压缩文件创建日期
+(2013L, 4L, 14L, 8L, 20L, 28L)
+>>> rar.read('test_file.txt') #读取压缩文件的内容
+'This is for test.'
+>>> rar.extractall() #解压rar压缩文件
+>>> rar.close() #关闭rar文件
+"""
