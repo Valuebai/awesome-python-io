@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7e319fee-b90d-49ea-8829-d7928cf3ff75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test-code/ps_cut_pic/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-code/dblog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-code/test_EightQueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-leetcode/test_EightQueen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-code/test_aaa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-code/test_find_amzing_num.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-leetcode/test_find_amzing_num.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-code/test_temp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-code/test_temp_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday" beforeDir="false" afterPath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_redis.coverage" NAME="test_redis Coverage Results" MODIFIED="1554381511009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_aaa.coverage" NAME="test_aaa Coverage Results" MODIFIED="1555085188484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_logging.coverage" NAME="test_logging Coverage Results" MODIFIED="1554792562670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_config.coverage" NAME="test_config Coverage Results" MODIFIED="1555054193554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_os_walk.coverage" NAME="test_os_walk Coverage Results" MODIFIED="1554793321304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_locust.coverage" NAME="test_locust Coverage Results" MODIFIED="1554795928481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_dbs.coverage" NAME="test_dbs Coverage Results" MODIFIED="1555088365397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$daydaycode.coverage" NAME="daydaycode Coverage Results" MODIFIED="1553831636271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_logging2.coverage" NAME="test_logging2 Coverage Results" MODIFIED="1554792164437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_dbutils.coverage" NAME="test_dbutils Coverage Results" MODIFIED="1555162216959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-database/insert_data_excel_xlrd_illegal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="81" column="43" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
+              <folding>
+                <element signature="e#743#758#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python37/Lib/site-packages/requests/api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-leetcode/test_TSP_problem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3630">
+              <caret line="171" column="22" selection-start-line="171" selection-start-column="22" selection-end-line="171" selection-end-column="22" />
+              <folding>
+                <element signature="e#1714#1727#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python37/Lib/site-packages/flask/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27610">
+              <caret line="1314" column="20" selection-start-line="1314" selection-start-column="20" selection-end-line="1314" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-interview/Python练习题目更新--天天练.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1055577769/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92664">
+              <caret line="4212" column="8" selection-start-line="4212" selection-start-column="8" selection-end-line="4212" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bat</find>
+      <find>result_tuple</find>
+      <find>sequense</find>
+      <find>DBU</find>
+      <find>make_table_sql</find>
+      <find>remove_bg</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>result_list</replace>
+      <replace>sequence</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\mycode\awesome-python-io</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test-code/wechat/test_get_grouplist.py" />
+        <option value="$PROJECT_DIR$/test-code/wechat/test_get_groupinfo.py" />
+        <option value="$PROJECT_DIR$/test-code/test_unittest.py" />
+        <option value="$PROJECT_DIR$/test-code/fuck-login-master/017 attop.com/requirements.txt" />
+        <option value="$PROJECT_DIR$/test-code/test_find_amzing_num.py" />
+        <option value="$PROJECT_DIR$/test-leetcode/aaaa.py" />
+        <option value="$PROJECT_DIR$/test-leetcode/263_Ugly_Num.py" />
+        <option value="$PROJECT_DIR$/test-leetcode/263_Ugly_Num_isUgly.py" />
+        <option value="$PROJECT_DIR$/test-leetcode/264_Ugly_Num_nthUglyNumber.py" />
+        <option value="$PROJECT_DIR$/test-code/test_temp_generator.py" />
+        <option value="$PROJECT_DIR$/test-code/test_EightQueen.py" />
+        <option value="$PROJECT_DIR$/test-code/test_temp.py" />
+        <option value="$PROJECT_DIR$/AI-NLP/email-problem-03.py" />
+        <option value="$PROJECT_DIR$/AI-NLP/lesson-01.py" />
+        <option value="$PROJECT_DIR$/test-code/wechat/test_itchat.py" />
+        <option value="$PROJECT_DIR$/python-ide/start_jupyter_notebook.bat" />
+        <option value="$PROJECT_DIR$/test-code/webspider/test_beautifulsoup.py" />
+        <option value="$PROJECT_DIR$/test-code/webspider/test_beau_soup.py" />
+        <option value="$PROJECT_DIR$/test-code/map-info/imap_gaode.py" />
+        <option value="$PROJECT_DIR$/test-code/map-info/get_coordinates.py" />
+        <option value="$PROJECT_DIR$/test-leetcode/test_Deep_First_Search.py" />
+        <option value="$PROJECT_DIR$/test-code/webspider/test_beau_soup_qunaer.py" />
+        <option value="$PROJECT_DIR$/test-leetcode/test_Gragh.py" />
+        <option value="$PROJECT_DIR$/test-leetcode/test_Dynamic_Programming.py" />
+        <option value="$PROJECT_DIR$/test-leetcode/test_Dynamic_Programming_0/1_bag_problem.py" />
+        <option value="$PROJECT_DIR$/test-leetcode/test_Dynamic_Programming_0_1_bag_probelm.py" />
+        <option value="$PROJECT_DIR$/test-code/web_flask/flask_demo.py" />
+        <option value="$PROJECT_DIR$/test-code/web_flask-restful/test_flask_restful.py" />
+        <option value="$PROJECT_DIR$/test-code/map-info/get_coordinates_distance.py" />
+        <option value="$PROJECT_DIR$/test-leetcode/test_TPS_problem.py" />
+        <option value="$PROJECT_DIR$/test-leetcode/test_TSP_problem.py" />
+        <option value="$PROJECT_DIR$/test-code/smsBang/smsBang.py" />
+        <option value="$PROJECT_DIR$/common-error/create_path_FileNotFoundError.py" />
+        <option value="$PROJECT_DIR$/test-leetcode/test_Gragh_DFS_BFS.py" />
+        <option value="$PROJECT_DIR$/test-leetcode/test_DFS_BFS.py" />
+        <option value="$PROJECT_DIR$/test-leetcode/070_Climb_Stairs.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/test-code/test_handout.py" />
+        <option value="$PROJECT_DIR$/test-code/webspider/test_wechat_spider.py" />
+        <option value="$PROJECT_DIR$/test-database/insert_data_from_excel.py" />
+        <option value="$PROJECT_DIR$/test-database/insert_data_excel.py" />
+        <option value="$PROJECT_DIR$/test-database/unzip_all_files.py" />
+        <option value="$PROJECT_DIR$/test-database/unrar_all_files.py" />
+        <option value="$PROJECT_DIR$/test-database/insert_data_excel_temp.py" />
+        <option value="$PROJECT_DIR$/test-database/insert_data_excel_xlrd.py" />
+        <option value="$PROJECT_DIR$/test-database/insert_data_excel_pandas.py" />
+        <option value="$PROJECT_DIR$/test-database/insert_data_csv2mysql.py" />
+        <option value="$PROJECT_DIR$/test-code/test_remove_bg.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/test-code/ps_cut_pic/test_remove_bg.py" />
+        <option value="$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
+              <item name="test-code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
+              <item name="test-code" type="462c0819:PsiDirectoryNode" />
+              <item name="ps_cut_pic" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test-code/ps_cut_pic" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mycode\awesome-python-io\test-code\ps_cut_pic" />
+      <recent name="C:\mycode\awesome-python-io\test-code" />
+      <recent name="C:\mycode\awesome-python-io\test-database" />
+      <recent name="C:\mycode\awesome-python-io\test-code\smsBang" />
+      <recent name="C:\mycode\awesome-python-io\test-skills\monkey" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\mycode\awesome-python-io\test-leetcode" />
+      <recent name="C:\mycode\awesome-python-io\test-code\ps_cut_pic" />
+      <recent name="C:\mycode\awesome-python-io\test-database" />
+      <recent name="C:\mycode\awesome-python-io" />
+      <recent name="C:\mycode\awesome-python-io\test-skills\adb\adb-logcat" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test_ps_cut_bg">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="awesome-python-io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="insert_data_csv2mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="awesome-python-io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test-database/insert_data_csv2mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="insert_data_excel_xlrd_illegal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="awesome-python-io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test-database/insert_data_excel_xlrd_illegal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_ps_cut_bg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="awesome-python-io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-code/ps_cut_pic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_remove_bg (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="awesome-python-io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-code/ps_cut_pic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test-code/ps_cut_pic/test_remove_bg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_remove_bg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="awesome-python-io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\mycode\awesome-python-io\test-code\ps_cut_pic\test_remove_bg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.insert_data_csv2mysql" />
+      <item itemvalue="Python.test_remove_bg" />
+      <item itemvalue="Python.test_remove_bg (1)" />
+      <item itemvalue="Python.insert_data_excel_xlrd_illegal" />
+      <item itemvalue="Python.test_ps_cut_bg" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_ps_cut_bg" />
+        <item itemvalue="Python.test_remove_bg (1)" />
+        <item itemvalue="Python.insert_data_excel_xlrd_illegal" />
+        <item itemvalue="Python.test_remove_bg" />
+        <item itemvalue="Python.insert_data_csv2mysql" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e319fee-b90d-49ea-8829-d7928cf3ff75" name="Default Changelist" comment="" />
+      <created>1552705692392</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552705692392</updated>
+      <workItem from="1552705694368" duration="10578000" />
+      <workItem from="1552925994171" duration="1843000" />
+      <workItem from="1552967083780" duration="838000" />
+      <workItem from="1552967972230" duration="596000" />
+      <workItem from="1552968655009" duration="4459000" />
+      <workItem from="1553174871489" duration="3000000" />
+      <workItem from="1553308644403" duration="1055000" />
+      <workItem from="1553311844699" duration="3836000" />
+      <workItem from="1553443703347" duration="1223000" />
+      <workItem from="1553594735400" duration="5841000" />
+      <workItem from="1553933251726" duration="397000" />
+      <workItem from="1554027523493" duration="792000" />
+      <workItem from="1554091643713" duration="6132000" />
+      <workItem from="1554716125640" duration="15274000" />
+      <workItem from="1555050171177" duration="2325000" />
+      <workItem from="1555078033176" duration="10435000" />
+      <workItem from="1555143739031" duration="4395000" />
+      <workItem from="1555294179901" duration="730000" />
+      <workItem from="1555318393268" duration="198000" />
+      <workItem from="1555318619516" duration="341000" />
+      <workItem from="1555319019133" duration="6074000" />
+      <workItem from="1555743722450" duration="33041000" />
+      <workItem from="1555930304389" duration="5155000" />
+      <workItem from="1556610213107" duration="377000" />
+      <workItem from="1556615915274" duration="551000" />
+      <workItem from="1556685253079" duration="5553000" />
+      <workItem from="1557024310178" duration="3864000" />
+      <workItem from="1557822554363" duration="2643000" />
+      <workItem from="1558194311600" duration="1292000" />
+      <workItem from="1558317651066" duration="598000" />
+      <workItem from="1558409693691" duration="684000" />
+      <workItem from="1558493386599" duration="993000" />
+      <workItem from="1559117149929" duration="7155000" />
+      <workItem from="1559196391782" duration="594000" />
+      <workItem from="1559466713646" duration="3816000" />
+      <workItem from="1559542300844" duration="5423000" />
+      <workItem from="1560480328554" duration="927000" />
+      <workItem from="1560533290170" duration="599000" />
+      <workItem from="1560622338057" duration="4895000" />
+      <workItem from="1560658841845" duration="6160000" />
+      <workItem from="1560760853609" duration="11762000" />
+      <workItem from="1561190395534" duration="2001000" />
+      <workItem from="1561343323215" duration="6309000" />
+      <workItem from="1561859749042" duration="5875000" />
+      <workItem from="1561950288179" duration="4187000" />
+      <workItem from="1562252304197" duration="595000" />
+      <workItem from="1562312981753" duration="1527000" />
+      <workItem from="1562314546418" duration="220000" />
+      <workItem from="1562314830135" duration="1734000" />
+      <workItem from="1562581846142" duration="6721000" />
+      <workItem from="1562687051943" duration="1575000" />
+      <workItem from="1562716203756" duration="777000" />
+      <workItem from="1562724658441" duration="613000" />
+      <workItem from="1562770805854" duration="595000" />
+      <workItem from="1562858155579" duration="596000" />
+      <workItem from="1562914891384" duration="3464000" />
+      <workItem from="1562921601108" duration="1414000" />
+      <workItem from="1562944301116" duration="2268000" />
+      <workItem from="1563159079041" duration="2447000" />
+      <workItem from="1563203007079" duration="2315000" />
+      <workItem from="1563240532040" duration="1828000" />
+      <workItem from="1563287573678" duration="817000" />
+      <workItem from="1563329600845" duration="17459000" />
+      <workItem from="1563517623829" duration="7507000" />
+      <workItem from="1563613882017" duration="2345000" />
+      <workItem from="1563721347132" duration="597000" />
+      <workItem from="1563778867939" duration="4609000" />
+      <workItem from="1563892123167" duration="2866000" />
+      <workItem from="1563934111498" duration="8302000" />
+      <workItem from="1563984904180" duration="597000" />
+      <workItem from="1564023519843" duration="3048000" />
+      <workItem from="1564108803177" duration="1253000" />
+      <workItem from="1564468103440" duration="588000" />
+      <workItem from="1564541355030" duration="1197000" />
+      <workItem from="1564585996352" duration="1298000" />
+      <workItem from="1564627029490" duration="1862000" />
+      <workItem from="1564712169423" duration="6599000" />
+      <workItem from="1564920695921" duration="1222000" />
+      <workItem from="1564970844945" duration="2409000" />
+      <workItem from="1565109088640" duration="2427000" />
+      <workItem from="1565144688894" duration="1220000" />
+      <workItem from="1565197029419" duration="12882000" />
+      <workItem from="1565355467506" duration="1375000" />
+      <workItem from="1565371151739" duration="600000" />
+      <workItem from="1565434248758" duration="3867000" />
+      <workItem from="1565575090670" duration="7869000" />
+      <workItem from="1565620093130" duration="691000" />
+      <workItem from="1565686934331" duration="1164000" />
+      <workItem from="1565706780379" duration="1197000" />
+      <workItem from="1565784521729" duration="3418000" />
+      <workItem from="1566141877324" duration="843000" />
+      <workItem from="1566301397206" duration="649000" />
+      <workItem from="1566372197994" duration="3526000" />
+      <workItem from="1566443540164" duration="5118000" />
+      <workItem from="1566468668057" duration="579000" />
+      <workItem from="1566526966433" duration="3574000" />
+      <workItem from="1566631526311" duration="1251000" />
+      <workItem from="1566791893352" duration="9566000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Twisted_Trial_in_test_unittest_py - 2019.06.03 at 18h 04m 30s.xml">
+      <configuration name="Twisted Trial in test_unittest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_unittest_py - 2019.06.03 at 18h 06m 18s.xml">
+      <configuration name="Twisted Trial in test_unittest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_unittest_py - 2019.06.03 at 18h 10m 20s.xml">
+      <configuration name="Twisted Trial in test_unittest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_unittest_py - 2019.06.03 at 18h 12m 28s.xml">
+      <configuration name="Twisted Trial in test_unittest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_for_test_unittest_Test_Kuaidi_test_yunda - 2019.06.03 at 18h 26m 55s.xml">
+      <configuration name="Twisted Trial for test_unittest.Test_Kuaidi.test_yunda" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_for_test_unittest_Test_Kuaidi_test_addNum - 2019.06.03 at 18h 28m 14s.xml">
+      <configuration name="Twisted Trial for test_unittest.Test_Kuaidi.test_addNum" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="349919000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13927428" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.291939" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45751634" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3278867" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49635628" weight="0.24183007" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49878544" weight="0.3769063" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50364375" side_tool="true" weight="0.23971377" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49893278" weight="0.27124184" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="5" sideWeight="0.4987715" weight="0.32955465" />
+      <window_info anchor="right" x="0" y="0" width="273" height="495" id="Documentation" order="6" sideWeight="0.5012285" side_tool="true" weight="0.18783352" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2048583" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.23076923" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46690518" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49635628" weight="0.23971377" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49878544" weight="0.37745973" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50364375" side_tool="true" weight="0.23971377" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49893278" weight="0.32897604" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32983023" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/NLP_learn" />
+      <path value="$PROJECT_DIR$/learn-python" />
+      <path value="$PROJECT_DIR$/project-mini-shop-server/mini-shop-server" />
+      <path value="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test-leetcode/test_Dynamic_Programming_0_1_bag_probelm.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="buildItem()" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_handout.coverage" NAME="test_handout Coverage Results" MODIFIED="1565159425925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$demo.coverage" NAME="demo Coverage Results" MODIFIED="1555411973942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-skills/mysql/DBUtils" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_get_groupinfo.coverage" NAME="test_get_groupinfo Coverage Results" MODIFIED="1559493679946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/wechat" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_remove_bg__1_.coverage" NAME="test_remove_bg (1) Coverage Results" MODIFIED="1566806284794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/ps_cut_pic" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_ps_cut_bg.coverage" NAME="test_ps_cut_bg Coverage Results" MODIFIED="1566812199788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/ps_cut_pic" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$email_problem_03.coverage" NAME="email-problem-03 Coverage Results" MODIFIED="1561912257597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AI-NLP" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_zhihu.coverage" NAME="test_zhihu Coverage Results" MODIFIED="1557372479803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/selenium" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$Twisted_Trial_in_test_unittest_py.coverage" NAME="Twisted Trial in test_unittest.py Coverage Results" MODIFIED="1559556747427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$insert_data_excel_pandas.coverage" NAME="insert_data_excel_pandas Coverage Results" MODIFIED="1566446399006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-database" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_Deep_First_Search.coverage" NAME="test_Deep_First_Search Coverage Results" MODIFIED="1563204928842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_Dynamic_Programming_0_1_bag_probelm.coverage" NAME="test_Dynamic_Programming_0_1_bag_probelm Coverage Results" MODIFIED="1563422931971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$insert_data_excel.coverage" NAME="insert_data_excel Coverage Results" MODIFIED="1565436204981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-database" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$insert_data_csv2mysql.coverage" NAME="insert_data_csv2mysql Coverage Results" MODIFIED="1566542014276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-database" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_remove_bg.coverage" NAME="test_remove_bg Coverage Results" MODIFIED="1566804948861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_flask.coverage" NAME="test_flask Coverage Results" MODIFIED="1555490849073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_flask_restful.coverage" NAME="test_flask_restful Coverage Results" MODIFIED="1563529354008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/web_flask-restful" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_wechat_spider.coverage" NAME="test_wechat_spider Coverage Results" MODIFIED="1565248162113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/webspider" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$main.coverage" NAME="main Coverage Results" MODIFIED="1555416806616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday/py3" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$imap_gaode.coverage" NAME="imap_gaode Coverage Results" MODIFIED="1562995761902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/map-info" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_Dynamic_Programming.coverage" NAME="test_Dynamic_Programming Coverage Results" MODIFIED="1563356266777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$smsBang.coverage" NAME="smsBang Coverage Results" MODIFIED="1564922805042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/smsBang" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_Gragh.coverage" NAME="test_Gragh Coverage Results" MODIFIED="1563353078132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_Gragh_DFS_BFS.coverage" NAME="test_Gragh_DFS_BFS Coverage Results" MODIFIED="1563955543131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$Twisted_Trial_for_test_unittest_Test_Kuaidi_test_addNum.coverage" NAME="Twisted Trial for test_unittest.Test_Kuaidi.test_addNum Coverage Results" MODIFIED="1559557693961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_EightQueen.coverage" NAME="test_EightQueen Coverage Results" MODIFIED="1561191350241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_TSP_problem.coverage" NAME="test_TSP_problem Coverage Results" MODIFIED="1563874421349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_itchat.coverage" NAME="test_itchat Coverage Results" MODIFIED="1562212065137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/wechat" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$070_Climb_Stairs.coverage" NAME="070_Climb_Stairs Coverage Results" MODIFIED="1564744263726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_beautifulsoup.coverage" NAME="test_beautifulsoup Coverage Results" MODIFIED="1562582972473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/webspider" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$create_path_FileNotFoundError.coverage" NAME="create_path_FileNotFoundError Coverage Results" MODIFIED="1563956127204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common-error" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_beau_soup_qunaer.coverage" NAME="test_beau_soup_qunaer Coverage Results" MODIFIED="1562660160278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/webspider" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$unzip_all_files.coverage" NAME="unzip_all_files Coverage Results" MODIFIED="1565579354059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-database" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1558195616177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project-exchange-pv" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_DFS_BFS.coverage" NAME="test_DFS_BFS Coverage Results" MODIFIED="1564038398662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_find_amzing_num.coverage" NAME="test_find_amzing_num Coverage Results" MODIFIED="1560766584453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$flask_demo.coverage" NAME="flask_demo Coverage Results" MODIFIED="1563529319353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/web_flask" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$insert_data_excel_temp.coverage" NAME="insert_data_excel_temp Coverage Results" MODIFIED="1565787250507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-database" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$unrar_all_files.coverage" NAME="unrar_all_files Coverage Results" MODIFIED="1565608015147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-database" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$001_Two_Sum.coverage" NAME="001_Two_Sum Coverage Results" MODIFIED="1559124518987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$Twisted_Trial_for_test_unittest_Test_Kuaidi_test_yunda.coverage" NAME="Twisted Trial for test_unittest.Test_Kuaidi.test_yunda Coverage Results" MODIFIED="1559557614143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_get_grouplist.coverage" NAME="test_get_grouplist Coverage Results" MODIFIED="1559468398843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/wechat" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_temp.coverage" NAME="test_temp Coverage Results" MODIFIED="1561347392902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$get_coordinates_distance.coverage" NAME="get_coordinates_distance Coverage Results" MODIFIED="1563644897303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/map-info" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$lesson_01.coverage" NAME="lesson-01 Coverage Results" MODIFIED="1561968102141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AI-NLP" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_beau_soup.coverage" NAME="test_beau_soup Coverage Results" MODIFIED="1562643870170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/webspider" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>buildItem()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Items</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>offset_row</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>queen</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result_tuple</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test-leetcode/00_work_rep_init_script.sql" />
+    <entry file="file://$PROJECT_DIR$/test-code/_trial_temp/test.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python37/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="180" column="76" selection-start-line="180" selection-start-column="71" selection-end-line="180" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-leetcode/dfs.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16498">
+          <caret line="516" lean-forward="true" selection-start-line="516" selection-end-line="516" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/pysnooper/tracer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="221" selection-start-line="221" selection-end-line="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-leetcode/test_Gragh_DFS_BFS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-leetcode/070_Climb_Stairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="99" selection-start-line="38" selection-start-column="99" selection-end-line="38" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/smsBang/smsBang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6160">
+          <caret line="282" column="21" selection-start-line="282" selection-start-column="21" selection-end-line="282" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="638">
+            <caret line="29" selection-start-line="29" selection-end-line="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/pysnooper/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#422#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_spider/cookie.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_spider/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_spider/test_wechat_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/openpyxl/reader/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/test_handout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1892">
+          <caret line="88" column="3" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
+          <folding>
+            <element signature="e#415#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-leetcode/test_Dynamic_Programming_0_1_bag_probelm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2948">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-database/unzip_all_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/rarfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59664">
+          <caret line="2870" column="21" selection-start-line="2870" selection-start-column="21" selection-end-line="2870" selection-end-column="21" />
+          <folding>
+            <element signature="e#12002#15998#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/zipfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26180">
+          <caret line="1199" selection-start-line="1199" selection-end-line="1199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-database/unrar_all_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-leetcode/test_DFS_BFS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-database/insert_data_from_excel.py" />
+    <entry file="file://$PROJECT_DIR$/test-database/insert_data_excel_xlrd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+          <folding>
+            <element signature="e#268#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/output/figure-0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-database/insert_data_csv2mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1228">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding>
+            <element signature="e#226#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-database/insert_data_excel_pandas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="65" selection-start-line="65" selection-end-line="70" selection-end-column="18" />
+          <folding>
+            <element signature="e#270#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-database/insert_data_csv2mysql_auto.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-database/test_dbutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#19#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3586">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-leetcode/test_TSP_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3630">
+          <caret line="171" column="22" selection-start-line="171" selection-start-column="22" selection-end-line="171" selection-end-column="22" />
+          <folding>
+            <element signature="e#1714#1727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27610">
+          <caret line="1314" column="20" selection-start-line="1314" selection-start-column="20" selection-end-line="1314" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-interview/Python练习题目更新--天天练.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1055577769/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92664">
+          <caret line="4212" column="8" selection-start-line="4212" selection-start-column="8" selection-end-line="4212" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/remove_bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/no-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/removebg/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/no-bg-red.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/remove_bg.jpg_no_bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/newB.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/newC.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="340" column="14" selection-start-line="340" selection-start-column="14" selection-end-line="340" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/removebg/removebg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/newA.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test_remove_bg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-database/insert_data_excel_xlrd_illegal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test-no-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/jb51.net.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test.jpg_no_bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="81" column="43" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
+          <folding>
+            <element signature="e#743#758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="MarkdownNavigator.LinkMap.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
