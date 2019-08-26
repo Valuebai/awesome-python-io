@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e319fee-b90d-49ea-8829-d7928cf3ff75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test-code/ps_cut_pic/test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-code/dblog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-code/test_EightQueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-leetcode/test_EightQueen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-code/test_aaa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-code/test_find_amzing_num.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-leetcode/test_find_amzing_num.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-code/test_temp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-code/test_temp_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday" beforeDir="false" afterPath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="81" column="43" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
+            <state relative-caret-position="466">
+              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
               <folding>
                 <element signature="e#743#758#0" expanded="true" />
               </folding>
@@ -215,12 +208,6 @@
               <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
               <item name="test-code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
-              <item name="test-code" type="462c0819:PsiDirectoryNode" />
-              <item name="ps_cut_pic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -511,7 +498,7 @@
       <workItem from="1566468668057" duration="579000" />
       <workItem from="1566526966433" duration="3574000" />
       <workItem from="1566631526311" duration="1251000" />
-      <workItem from="1566791893352" duration="9566000" />
+      <workItem from="1566791893352" duration="9787000" />
     </task>
     <servers />
   </component>
@@ -536,7 +523,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349919000" />
+    <option name="totallyTimeSpent" value="350140000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -672,7 +659,7 @@
     <SUITE FILE_PATH="coverage/awesome_python_io$demo.coverage" NAME="demo Coverage Results" MODIFIED="1555411973942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-skills/mysql/DBUtils" />
     <SUITE FILE_PATH="coverage/awesome_python_io$test_get_groupinfo.coverage" NAME="test_get_groupinfo Coverage Results" MODIFIED="1559493679946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/wechat" />
     <SUITE FILE_PATH="coverage/awesome_python_io$test_remove_bg__1_.coverage" NAME="test_remove_bg (1) Coverage Results" MODIFIED="1566806284794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/ps_cut_pic" />
-    <SUITE FILE_PATH="coverage/awesome_python_io$test_ps_cut_bg.coverage" NAME="test_ps_cut_bg Coverage Results" MODIFIED="1566812199788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/ps_cut_pic" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_ps_cut_bg.coverage" NAME="test_ps_cut_bg Coverage Results" MODIFIED="1566812295415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/ps_cut_pic" />
     <SUITE FILE_PATH="coverage/awesome_python_io$email_problem_03.coverage" NAME="email-problem-03 Coverage Results" MODIFIED="1561912257597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AI-NLP" />
     <SUITE FILE_PATH="coverage/awesome_python_io$test_zhihu.coverage" NAME="test_zhihu Coverage Results" MODIFIED="1557372479803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/selenium" />
     <SUITE FILE_PATH="coverage/awesome_python_io$Twisted_Trial_in_test_unittest_py.coverage" NAME="Twisted Trial in test_unittest.py Coverage Results" MODIFIED="1559556747427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
@@ -744,10 +731,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test-leetcode/00_work_rep_init_script.sql" />
-    <entry file="file://$PROJECT_DIR$/test-code/_trial_temp/test.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://C:/Python37/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -1045,10 +1028,16 @@
     <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test.jpg_no_bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/newC.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="81" column="43" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
+        <state relative-caret-position="466">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
           <folding>
             <element signature="e#743#758#0" expanded="true" />
           </folding>

@@ -15,6 +15,7 @@
 =================================================='''
 # Requires "requests" to be installed (see python-requests.org)
 import requests
+import os
 from PIL import Image
 from removebg import RemoveBg
 
@@ -32,6 +33,18 @@ def remove_offical() -> None:
             print('图片保存成功')
     else:
         print("Error:", response.status_code, response.text)
+
+
+def remove_one() -> None:
+    rmbg = RemoveBg("UNFDsmLmH6pWpZpqMJA3vwZq", "error.log")  # 引号内是你获取的API
+    rmbg.remove_background_from_img_file("test.jpg")  # 图片地址
+
+
+def remove_all() -> None:
+    rmbg = RemoveBg("UNFDsmLmH6pWpZpqMJA3vwZq", "error.log")
+    path = '%s/picture' % os.getcwd()  # 图片放到程序的同级文件夹 picture 里面
+    for pic in os.listdir(path):
+        rmbg.remove_background_from_img_file("%s\%s" % (path, pic))
 
 
 def change2bg() -> None:
@@ -72,18 +85,20 @@ class Imgprocess():
             print('changebg err')
             pass
 
+
 def main():
     option = input("pls input your taget img type, A:red B:bule C:white D:justremovebg: \n")
     print(option)
-    newimg = Imgprocess("1HvhnyaCtUWbytL15RqCPp4o")
+    newimg = Imgprocess("UNFDsmLmH6pWpZpqMJA3vwZq")
     newimg.removebg("test.jpg")
     if option in list('ABC'):
         print('in')
-        newimg.changebg('test.jpg_no_bg.png',option)
+        newimg.changebg('test.jpg_no_bg.png', option)
         print('out')
     else:
         print('done')
         pass
+
 
 if __name__ == "__main__":
     # remove_offical()
