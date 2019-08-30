@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e319fee-b90d-49ea-8829-d7928cf3ff75" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/get_yaml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pushbearConf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/ticket_config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday" beforeDir="false" afterPath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,18 +28,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-database/insert_data_excel_xlrd_illegal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
+            <state relative-caret-position="82">
               <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
               <folding>
                 <element signature="e#743#758#0" expanded="true" />
@@ -47,32 +40,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python37/Lib/site-packages/requests/api.py">
+        <entry file="file://$PROJECT_DIR$/config/get_yaml.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="198">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+              <folding>
+                <element signature="e#225#234#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-leetcode/test_TSP_problem.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/pushbearConf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3630">
-              <caret line="171" column="22" selection-start-line="171" selection-start-column="22" selection-end-line="171" selection-end-column="22" />
+            <state relative-caret-position="176">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
               <folding>
-                <element signature="e#1714#1727#0" expanded="true" />
+                <element signature="e#225#231#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python37/Lib/site-packages/flask/app.py">
+        <entry file="file://C:/Python36/Lib/site-packages/requests/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27610">
-              <caret line="1314" column="20" selection-start-line="1314" selection-start-column="20" selection-end-line="1314" selection-end-column="20" />
+            <state relative-caret-position="198">
+              <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/ticket_config.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="107" column="51" selection-start-line="107" selection-start-column="51" selection-end-line="107" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locust.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-594" />
           </provider>
         </entry>
       </file>
@@ -112,6 +124,7 @@
       <find>DBU</find>
       <find>make_table_sql</find>
       <find>remove_bg</find>
+      <find>logger</find>
     </findStrings>
     <replaceStrings>
       <replace>result_list</replace>
@@ -128,10 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test-code/wechat/test_get_grouplist.py" />
-        <option value="$PROJECT_DIR$/test-code/wechat/test_get_groupinfo.py" />
-        <option value="$PROJECT_DIR$/test-code/test_unittest.py" />
-        <option value="$PROJECT_DIR$/test-code/fuck-login-master/017 attop.com/requirements.txt" />
         <option value="$PROJECT_DIR$/test-code/test_find_amzing_num.py" />
         <option value="$PROJECT_DIR$/test-leetcode/aaaa.py" />
         <option value="$PROJECT_DIR$/test-leetcode/263_Ugly_Num.py" />
@@ -179,14 +188,18 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test-code/ps_cut_pic/test_remove_bg.py" />
         <option value="$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py" />
+        <option value="$PROJECT_DIR$/config/ticket_config.yaml" />
+        <option value="$PROJECT_DIR$/config/logger.py" />
+        <option value="$PROJECT_DIR$/config/get_yaml.py" />
+        <option value="$PROJECT_DIR$/config/pushbearConf.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -196,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,12 +219,18 @@
             <path>
               <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
               <item name="test-code" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,25 +238,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test-code/ps_cut_pic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\mycode\awesome-python-io\test-code\ps_cut_pic" />
-      <recent name="C:\mycode\awesome-python-io\test-code" />
-      <recent name="C:\mycode\awesome-python-io\test-database" />
-      <recent name="C:\mycode\awesome-python-io\test-code\smsBang" />
-      <recent name="C:\mycode\awesome-python-io\test-skills\monkey" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\mycode\awesome-python-io\test-leetcode" />
       <recent name="C:\mycode\awesome-python-io\test-code\ps_cut_pic" />
       <recent name="C:\mycode\awesome-python-io\test-database" />
       <recent name="C:\mycode\awesome-python-io" />
       <recent name="C:\mycode\awesome-python-io\test-skills\adb\adb-logcat" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mycode\awesome-python-io\config" />
+      <recent name="C:\mycode\awesome-python-io" />
+      <recent name="C:\mycode\awesome-python-io\test-code\ps_cut_pic" />
+      <recent name="C:\mycode\awesome-python-io\test-code" />
+      <recent name="C:\mycode\awesome-python-io\test-database" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -253,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_ps_cut_bg">
+  <component name="RunManager" selected="Python.pushbearConf">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="awesome-python-io" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -276,20 +294,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="insert_data_csv2mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="get_yaml" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="awesome-python-io" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-database" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test-database/insert_data_csv2mysql.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/get_yaml.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,6 +317,9 @@
       <module name="awesome-python-io" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-database" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -317,10 +335,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pushbearConf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="awesome-python-io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/pushbearConf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_ps_cut_bg" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="awesome-python-io" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-code/ps_cut_pic" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -340,6 +380,9 @@
       <module name="awesome-python-io" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-code/ps_cut_pic" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -355,39 +398,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_remove_bg" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="awesome-python-io" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\mycode\awesome-python-io\test-code\ps_cut_pic\test_remove_bg.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.insert_data_csv2mysql" />
-      <item itemvalue="Python.test_remove_bg" />
       <item itemvalue="Python.test_remove_bg (1)" />
       <item itemvalue="Python.insert_data_excel_xlrd_illegal" />
       <item itemvalue="Python.test_ps_cut_bg" />
+      <item itemvalue="Python.get_yaml" />
+      <item itemvalue="Python.pushbearConf" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pushbearConf" />
+        <item itemvalue="Python.get_yaml" />
         <item itemvalue="Python.test_ps_cut_bg" />
         <item itemvalue="Python.test_remove_bg (1)" />
         <item itemvalue="Python.insert_data_excel_xlrd_illegal" />
-        <item itemvalue="Python.test_remove_bg" />
-        <item itemvalue="Python.insert_data_csv2mysql" />
       </list>
     </recent_temporary>
   </component>
@@ -498,7 +522,12 @@
       <workItem from="1566468668057" duration="579000" />
       <workItem from="1566526966433" duration="3574000" />
       <workItem from="1566631526311" duration="1251000" />
-      <workItem from="1566791893352" duration="9787000" />
+      <workItem from="1566791893352" duration="10392000" />
+      <workItem from="1566831195437" duration="596000" />
+      <workItem from="1566916951243" duration="588000" />
+      <workItem from="1566958723252" duration="828000" />
+      <workItem from="1567050635743" duration="580000" />
+      <workItem from="1567152938923" duration="3199000" />
     </task>
     <servers />
   </component>
@@ -523,7 +552,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350140000" />
+    <option name="totallyTimeSpent" value="356536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,15 +564,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13927428" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19109312" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.291939" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.34347048" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45751634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -551,7 +580,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49635628" weight="0.24183007" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49878544" weight="0.3769063" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50364375" side_tool="true" weight="0.23971377" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49893278" weight="0.27124184" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49893278" weight="0.39534885" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -560,7 +589,7 @@
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="5" sideWeight="0.4987715" weight="0.32955465" />
-      <window_info anchor="right" x="0" y="0" width="273" height="495" id="Documentation" order="6" sideWeight="0.5012285" side_tool="true" weight="0.18783352" />
+      <window_info anchor="right" x="0" y="0" width="273" height="495" id="Documentation" order="6" sideWeight="0.5012285" side_tool="true" visible="true" weight="0.15384616" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2048583" />
@@ -664,6 +693,7 @@
     <SUITE FILE_PATH="coverage/awesome_python_io$test_zhihu.coverage" NAME="test_zhihu Coverage Results" MODIFIED="1557372479803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/selenium" />
     <SUITE FILE_PATH="coverage/awesome_python_io$Twisted_Trial_in_test_unittest_py.coverage" NAME="Twisted Trial in test_unittest.py Coverage Results" MODIFIED="1559556747427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
     <SUITE FILE_PATH="coverage/awesome_python_io$insert_data_excel_pandas.coverage" NAME="insert_data_excel_pandas Coverage Results" MODIFIED="1566446399006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-database" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$pushbearConf.coverage" NAME="pushbearConf Coverage Results" MODIFIED="1567158769092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/awesome_python_io$test_Deep_First_Search.coverage" NAME="test_Deep_First_Search Coverage Results" MODIFIED="1563204928842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
     <SUITE FILE_PATH="coverage/awesome_python_io$test_Dynamic_Programming_0_1_bag_probelm.coverage" NAME="test_Dynamic_Programming_0_1_bag_probelm Coverage Results" MODIFIED="1563422931971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
     <SUITE FILE_PATH="coverage/awesome_python_io$insert_data_excel.coverage" NAME="insert_data_excel Coverage Results" MODIFIED="1565436204981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-database" />
@@ -679,6 +709,7 @@
     <SUITE FILE_PATH="coverage/awesome_python_io$test_Gragh.coverage" NAME="test_Gragh Coverage Results" MODIFIED="1563353078132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
     <SUITE FILE_PATH="coverage/awesome_python_io$test_Gragh_DFS_BFS.coverage" NAME="test_Gragh_DFS_BFS Coverage Results" MODIFIED="1563955543131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
     <SUITE FILE_PATH="coverage/awesome_python_io$Twisted_Trial_for_test_unittest_Test_Kuaidi_test_addNum.coverage" NAME="Twisted Trial for test_unittest.Test_Kuaidi.test_addNum Coverage Results" MODIFIED="1559557693961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$get_yaml.coverage" NAME="get_yaml Coverage Results" MODIFIED="1567158481063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/awesome_python_io$test_EightQueen.coverage" NAME="test_EightQueen Coverage Results" MODIFIED="1561191350241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
     <SUITE FILE_PATH="coverage/awesome_python_io$test_TSP_problem.coverage" NAME="test_TSP_problem Coverage Results" MODIFIED="1563874421349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
     <SUITE FILE_PATH="coverage/awesome_python_io$test_itchat.coverage" NAME="test_itchat Coverage Results" MODIFIED="1562212065137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code/wechat" />
@@ -731,74 +762,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python37/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="180" column="76" selection-start-line="180" selection-start-column="71" selection-end-line="180" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-leetcode/dfs.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16498">
-          <caret line="516" lean-forward="true" selection-start-line="516" selection-end-line="516" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/pysnooper/tracer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="221" selection-start-line="221" selection-end-line="221" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-leetcode/test_Gragh_DFS_BFS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2508">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-leetcode/070_Climb_Stairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="99" selection-start-line="38" selection-start-column="99" selection-end-line="38" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/smsBang/smsBang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6160">
-          <caret line="282" column="21" selection-start-line="282" selection-start-column="21" selection-end-line="282" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="638">
-            <caret line="29" selection-start-line="29" selection-end-line="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/pysnooper/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#422#457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_spider/cookie.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_spider/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_spider/test_wechat_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -922,6 +885,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/remove_bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/test-code/no-bg.png" />
+    <entry file="file://C:/Python37/Lib/site-packages/removebg/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/no-bg-red.png" />
+    <entry file="file://$PROJECT_DIR$/test-code/remove_bg.jpg_no_bg.png" />
+    <entry file="file://$PROJECT_DIR$/test-code/newB.png" />
+    <entry file="file://$PROJECT_DIR$/test-code/newC.png" />
+    <entry file="file://$PROJECT_DIR$/test-code/error.log" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="340" column="14" selection-start-line="340" selection-start-column="14" selection-end-line="340" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/removebg/removebg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/newA.png" />
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test_remove_bg.py" />
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test-no-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/jb51.net.png" />
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test.jpg_no_bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/newC.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-database/insert_data_excel_xlrd_illegal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test-leetcode/test_TSP_problem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3630">
@@ -954,92 +973,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/remove_bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/requests/api.py">
+    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/no-bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/removebg/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/no-bg-red.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/remove_bg.jpg_no_bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/newB.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/newC.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/error.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="340" column="14" selection-start-line="340" selection-start-column="14" selection-end-line="340" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/removebg/removebg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="82">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#743#758#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/newA.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test_remove_bg.py">
+    <entry file="file://$PROJECT_DIR$/config/locust.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
+        <state relative-caret-position="-594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/ticket_config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="107" column="51" selection-start-line="107" selection-start-column="51" selection-end-line="107" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-database/insert_data_excel_xlrd_illegal.py">
+    <entry file="file://$PROJECT_DIR$/config/logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test-no-bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/jb51.net.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test.jpg_no_bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/newC.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/error.log">
+    <entry file="file://$PROJECT_DIR$/myUrllib/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py">
+    <entry file="file://$PROJECT_DIR$/myUrllib/httpUtils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        <state relative-caret-position="-143">
+          <caret line="155" column="37" lean-forward="true" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
           <folding>
-            <element signature="e#743#758#0" expanded="true" />
+            <element signature="e#23#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myUrllib/MySocketUtils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/yaml/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/get_yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="e#225#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/pushbearConf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="e#225#231#0" expanded="true" />
           </folding>
         </state>
       </provider>
