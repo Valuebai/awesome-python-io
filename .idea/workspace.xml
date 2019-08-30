@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e319fee-b90d-49ea-8829-d7928cf3ff75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/get_yaml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pushbearConf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/ticket_config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday" beforeDir="false" afterPath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,14 +49,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/pushbearConf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="29">
+              <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
               <folding>
                 <element signature="e#225#231#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="272" column="5" selection-start-line="272" selection-start-column="1" selection-end-line="272" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -185,13 +192,13 @@
         <option value="$PROJECT_DIR$/test-database/insert_data_excel_pandas.py" />
         <option value="$PROJECT_DIR$/test-database/insert_data_csv2mysql.py" />
         <option value="$PROJECT_DIR$/test-code/test_remove_bg.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test-code/ps_cut_pic/test_remove_bg.py" />
         <option value="$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py" />
         <option value="$PROJECT_DIR$/config/ticket_config.yaml" />
         <option value="$PROJECT_DIR$/config/logger.py" />
         <option value="$PROJECT_DIR$/config/get_yaml.py" />
         <option value="$PROJECT_DIR$/config/pushbearConf.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -215,16 +222,6 @@
             <path>
               <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
-              <item name="test-code" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -527,7 +524,7 @@
       <workItem from="1566916951243" duration="588000" />
       <workItem from="1566958723252" duration="828000" />
       <workItem from="1567050635743" duration="580000" />
-      <workItem from="1567152938923" duration="3199000" />
+      <workItem from="1567152938923" duration="3456000" />
     </task>
     <servers />
   </component>
@@ -552,7 +549,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356536000" />
+    <option name="totallyTimeSpent" value="356793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,12 +564,12 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19109312" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19109312" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.34347048" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.34347048" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45751634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -895,13 +892,6 @@
     <entry file="file://$PROJECT_DIR$/test-code/newB.png" />
     <entry file="file://$PROJECT_DIR$/test-code/newC.png" />
     <entry file="file://$PROJECT_DIR$/test-code/error.log" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="340" column="14" selection-start-line="340" selection-start-column="14" selection-end-line="340" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python37/Lib/site-packages/removebg/removebg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -1044,11 +1034,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/pushbearConf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="29">
+          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
           <folding>
             <element signature="e#225#231#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="272" column="5" selection-start-line="272" selection-start-column="1" selection-end-line="272" selection-end-column="5" />
         </state>
       </provider>
     </entry>

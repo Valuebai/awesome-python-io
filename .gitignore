@@ -274,7 +274,7 @@ Temporary Items
 .idea/**/tasks.xml
 .idea/**/dictionaries
 .idea/**/shelf
-
+.idea/
 
 # 忽略系统默认生成的文件
 .idea/awesome-python-io.iml
@@ -346,3 +346,5 @@ fabric.properties
 /test-database/qa_user_data.xlsx
 /python-hack/
 /test-code/output/
+
+
