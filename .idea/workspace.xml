@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e319fee-b90d-49ea-8829-d7928cf3ff75" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/test_logging.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday" beforeDir="false" afterPath="$PROJECT_DIR$/test-skills/wechat_template/wechat-iciba-everyday" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,90 +26,105 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-code/ps_cut_pic/test_ps_cut_bg.py">
+        <entry file="file://$PROJECT_DIR$/python-hack/百度采集器/main.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-hack/网易云下载/netEaseMusicEncrypt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-              <folding>
-                <element signature="e#743#758#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/get_yaml.py">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-              <folding>
-                <element signature="e#225#234#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/pushbearConf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-              <folding>
-                <element signature="e#225#231#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="348" selection-start-line="348" selection-end-line="348" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/config/test_logging.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="272" column="5" selection-start-line="272" selection-start-column="1" selection-end-line="272" selection-end-column="5" />
+            <state relative-caret-position="159">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding>
+                <element signature="e#224#238#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python36/Lib/site-packages/requests/__init__.py">
+        <entry file="file://$PROJECT_DIR$/python-hack/网易云下载/search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#28#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-hack/勒索病毒测试/lesuo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding>
+                <element signature="e#27#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/ticket_config.yaml">
+        <entry file="file://$PROJECT_DIR$/python-hack/github搜索工具/git_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="107" column="51" selection-start-line="107" selection-start-column="51" selection-end-line="107" selection-end-column="51" />
+            <state relative-caret-position="330">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locust.yml">
+        <entry file="file://$PROJECT_DIR$/python-hack/phpcms（中转注入批量检测）/jiances.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-594" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-interview/Python练习题目更新--天天练.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+            <state relative-caret-position="88">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1055577769/builtins.py">
+        <entry file="file://$PROJECT_DIR$/python-hack/phpcms（中转注入批量检测）/jsqllin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92664">
-              <caret line="4212" column="8" selection-start-line="4212" selection-start-column="8" selection-end-line="4212" selection-end-column="8" />
+            <state relative-caret-position="44">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-hack/勒索病毒测试/lesuo_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="11" />
+              <folding>
+                <element signature="e#27#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,6 +147,7 @@
       <find>make_table_sql</find>
       <find>remove_bg</find>
       <find>logger</find>
+      <find>idea</find>
     </findStrings>
     <replaceStrings>
       <replace>result_list</replace>
@@ -148,8 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test-code/test_find_amzing_num.py" />
-        <option value="$PROJECT_DIR$/test-leetcode/aaaa.py" />
         <option value="$PROJECT_DIR$/test-leetcode/263_Ugly_Num.py" />
         <option value="$PROJECT_DIR$/test-leetcode/263_Ugly_Num_isUgly.py" />
         <option value="$PROJECT_DIR$/test-leetcode/264_Ugly_Num_nthUglyNumber.py" />
@@ -199,6 +213,8 @@
         <option value="$PROJECT_DIR$/config/get_yaml.py" />
         <option value="$PROJECT_DIR$/config/pushbearConf.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config/logging.py" />
+        <option value="$PROJECT_DIR$/config/test_logging.py" />
       </list>
     </option>
   </component>
@@ -222,6 +238,26 @@
             <path>
               <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
+              <item name="test-database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
+              <item name="test-leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesome-python-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-python-io" type="462c0819:PsiDirectoryNode" />
+              <item name="test-skills" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pushbearConf">
+  <component name="RunManager" selected="Python.test_logging">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="awesome-python-io" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -295,6 +331,9 @@
       <module name="awesome-python-io" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -310,7 +349,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="insert_data_excel_xlrd_illegal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pushbearConf" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="awesome-python-io" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,12 +357,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-database" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test-database/insert_data_excel_xlrd_illegal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/pushbearConf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,7 +371,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pushbearConf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_logging" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="awesome-python-io" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,7 +381,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/pushbearConf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/test_logging.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -397,18 +436,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.test_remove_bg (1)" />
-      <item itemvalue="Python.insert_data_excel_xlrd_illegal" />
       <item itemvalue="Python.test_ps_cut_bg" />
       <item itemvalue="Python.get_yaml" />
       <item itemvalue="Python.pushbearConf" />
+      <item itemvalue="Python.test_logging" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_logging" />
         <item itemvalue="Python.pushbearConf" />
         <item itemvalue="Python.get_yaml" />
         <item itemvalue="Python.test_ps_cut_bg" />
         <item itemvalue="Python.test_remove_bg (1)" />
-        <item itemvalue="Python.insert_data_excel_xlrd_illegal" />
       </list>
     </recent_temporary>
   </component>
@@ -524,7 +563,8 @@
       <workItem from="1566916951243" duration="588000" />
       <workItem from="1566958723252" duration="828000" />
       <workItem from="1567050635743" duration="580000" />
-      <workItem from="1567152938923" duration="3456000" />
+      <workItem from="1567152938923" duration="4933000" />
+      <workItem from="1567391770181" duration="1638000" />
     </task>
     <servers />
   </component>
@@ -549,7 +589,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356793000" />
+    <option name="totallyTimeSpent" value="359908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -564,12 +604,12 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19109312" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18623482" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.34347048" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.36135957" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45751634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -691,6 +731,7 @@
     <SUITE FILE_PATH="coverage/awesome_python_io$Twisted_Trial_in_test_unittest_py.coverage" NAME="Twisted Trial in test_unittest.py Coverage Results" MODIFIED="1559556747427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-code" />
     <SUITE FILE_PATH="coverage/awesome_python_io$insert_data_excel_pandas.coverage" NAME="insert_data_excel_pandas Coverage Results" MODIFIED="1566446399006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-database" />
     <SUITE FILE_PATH="coverage/awesome_python_io$pushbearConf.coverage" NAME="pushbearConf Coverage Results" MODIFIED="1567158769092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
+    <SUITE FILE_PATH="coverage/awesome_python_io$test_logging.coverage" NAME="test_logging Coverage Results" MODIFIED="1567396316960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/awesome_python_io$test_Deep_First_Search.coverage" NAME="test_Deep_First_Search Coverage Results" MODIFIED="1563204928842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
     <SUITE FILE_PATH="coverage/awesome_python_io$test_Dynamic_Programming_0_1_bag_probelm.coverage" NAME="test_Dynamic_Programming_0_1_bag_probelm Coverage Results" MODIFIED="1563422931971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-leetcode" />
     <SUITE FILE_PATH="coverage/awesome_python_io$insert_data_excel.coverage" NAME="insert_data_excel Coverage Results" MODIFIED="1565436204981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-database" />
@@ -759,112 +800,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web_spider/test_wechat_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/openpyxl/reader/excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/test_handout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1892">
-          <caret line="88" column="3" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
-          <folding>
-            <element signature="e#415#429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-leetcode/test_Dynamic_Programming_0_1_bag_probelm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2948">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-database/unzip_all_files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/rarfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59664">
-          <caret line="2870" column="21" selection-start-line="2870" selection-start-column="21" selection-end-line="2870" selection-end-column="21" />
-          <folding>
-            <element signature="e#12002#15998#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/zipfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26180">
-          <caret line="1199" selection-start-line="1199" selection-end-line="1199" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-database/unrar_all_files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-leetcode/test_DFS_BFS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-database/insert_data_from_excel.py" />
-    <entry file="file://$PROJECT_DIR$/test-database/insert_data_excel_xlrd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
-          <folding>
-            <element signature="e#268#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-code/output/figure-0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-database/insert_data_csv2mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1228">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding>
-            <element signature="e#226#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-database/insert_data_excel_pandas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="65" selection-start-line="65" selection-end-line="70" selection-end-column="18" />
-          <folding>
-            <element signature="e#270#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-database/insert_data_csv2mysql_auto.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-database/test_dbutils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -985,29 +920,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myUrllib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myUrllib/httpUtils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="155" column="37" lean-forward="true" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
-          <folding>
-            <element signature="e#23#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myUrllib/MySocketUtils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config/logger.py" />
+    <entry file="file://$PROJECT_DIR$/myUrllib/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/myUrllib/httpUtils.py" />
+    <entry file="file://$PROJECT_DIR$/myUrllib/MySocketUtils.py" />
     <entry file="file://C:/Python36/Lib/site-packages/yaml/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -1042,10 +958,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/learn-python/conf/demo.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-hack/thinkphp_远程代码执行/demo.txt" />
+    <entry file="file://$PROJECT_DIR$/python-hack/thinkphp_远程代码执行/thinkphp_scan.py" />
+    <entry file="file://$PROJECT_DIR$/python-hack/百度采集器/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-hack/百度采集器/config/config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-hack/百度采集器/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-hack/网易云下载/netEaseMusicEncrypt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-hack/网易云下载/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#28#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-hack/勒索病毒测试/lesuo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="e#27#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-hack/github搜索工具/git_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-hack/phpcms（中转注入批量检测）/jiances.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-hack/phpcms（中转注入批量检测）/jsqllin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-hack/勒索病毒测试/lesuo_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#27#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/logging.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="272" column="5" selection-start-line="272" selection-start-column="1" selection-end-line="272" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="348" selection-start-line="348" selection-end-line="348" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/test_logging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#224#238#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
