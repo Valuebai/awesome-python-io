@@ -1,5 +1,5 @@
 # Python十分钟入门指南/技术图谱
-![Author](https://img.shields.io/badge/Author-Escape-blue.svg)
+
 ![Build](https://img.shields.io/badge/Build-passing-brightgreen.svg)
 ![Languages](https://img.shields.io/badge/Languages-Python3.7-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-orange.svg)
