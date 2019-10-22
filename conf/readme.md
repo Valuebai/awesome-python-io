@@ -11,14 +11,17 @@ yaml格式的文件看起来很清爽，建议使用
 - 获取yaml文件内容，参考get_yaml.py
 
 
+
 配置文件请严格遵循yaml语法格式，yaml学习地址 https://ansible-tran.readthedocs.io/en/latest/docs/YAMLSyntax.html
 
 
 ## ini文件
 
 - 在python中不建议使用ini，建议使用yaml。因为用pycharm.utf-8打开会乱码，得用GBK打开才正常
+
 - logging.ini已被废弃，使用logConf.py进行日志系统的打印
 
+- 也可以用.conf代替，但是觉得yaml更好
 
 
 ## log日志系统
