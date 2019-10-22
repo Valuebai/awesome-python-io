@@ -22,6 +22,7 @@
 链接：https://leetcode-cn.com/problems/add-two-numbers
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 =================================================='''
+import pysnooper
 
 
 # Definition for singly-linked list.
@@ -32,7 +33,9 @@ class ListNode:
 
 
 # 生成list链表
+# @pysnooper.snoop()
 def generateList(l: list) -> ListNode:
+    # 链表初始化，第一个数据为0，最后return时用.next去掉第一个0的数据
     prenode = ListNode(0)
     lastnode = prenode
     for val in l:
@@ -74,5 +77,5 @@ if __name__ == "__main__":
     printList(l1)
     printList(l2)
     s = Solution()
-    sum =s.addTwoNumbers(l1, l2)
+    sum = s.addTwoNumbers(l1, l2)
     printList(sum)

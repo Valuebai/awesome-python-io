@@ -337,7 +337,7 @@ fabric.properties
 /test-code/dblog.txt
 /common/home/
 /test-code/_trial_temp/
-/test-leetcode/dfs.log
+/run_leetcode/dfs.log
 /learn-python/
 /web_spider/spider/
 /web_spider/cookie.json
@@ -352,5 +352,5 @@ fabric.properties
 
 /web_spider/qiushi01.txt
 /web_spider/qiushit10.txt
-/test-leetcode/testtest.py
+/run_leetcode/testtest.py
 /conf/logs/

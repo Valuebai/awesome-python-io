@@ -13,7 +13,7 @@
         f.read()
 
 Traceback (most recent call last):
-  File "C:/mycode/awesome-python-io/test-leetcode/test_Gragh_DFS_BFS.py", line 120, in <module>
+  File "C:/mycode/awesome-python-io/run_leetcode/run_Gragh_DFS_BFS.py", line 120, in <module>
     with open(work_rep_init_file_name, 'w+') as f:
 FileNotFoundError: [Errno 2] No such file or directory: './scrip/00_work_rep_init_script.sql'
 ====================

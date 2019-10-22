@@ -147,7 +147,7 @@ if __name__ == "__main__":
 
 
     """运行时间有点长的
-    C:\Python37\python.exe C:/mycode/awesome-python-io/test-leetcode/test_TSP_problem.py
+    C:\Python37\python.exe C:/mycode/awesome-python-io/run_leetcode/run_TSP_problem.py
 758.4780798890544
 13
 20
