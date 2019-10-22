@@ -334,9 +334,9 @@ fabric.properties
 # 忽略测试代码-整个文件夹
 /test-ex-do-no-git/
 /web_spider/testBeauSoup_Save.xls
-/test-code/dblog.txt
+/run_test_code/dblog.txt
 /common/home/
-/test-code/_trial_temp/
+/run_test_code/_trial_temp/
 /run_leetcode/dfs.log
 /learn-python/
 /web_spider/spider/
@@ -344,7 +344,7 @@ fabric.properties
 /web_spider/geckodriver.log
 /run_database/student.xlsx
 /run_database/qa_user_data.xlsx
-/test-code/output/
+/run_test_code/output/
 
 
 
@@ -354,3 +354,5 @@ fabric.properties
 /web_spider/qiushit10.txt
 /run_leetcode/testtest.py
 /conf/logs/
+/run_test_code/ps_cut_pic/data/
+/run_test_code/wechat/data/

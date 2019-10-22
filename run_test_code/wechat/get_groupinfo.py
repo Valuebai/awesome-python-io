@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # coding: utf-8
 
+#
+# 目前无法使用，后面再看
+
 import itchat, datetime
 from itchat.content import TEXT
 

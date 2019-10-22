@@ -1,6 +1,6 @@
 #有报错的
 # Traceback (most recent call last):
-#   File "C:/mycode/awesome-python-io/test-code/wechat/test_get_grouplist.py", line 36, in <module>
+#   File "C:/mycode/awesome-python-io/run_test_code/wechat/get_grouplist.py", line 36, in <module>
 #     sht = wb['wechat']
 #   File "C:\Python37\lib\site-packages\openpyxl\workbook\workbook.py", line 277, in __getitem__
 #     raise KeyError("Worksheet {0} does not exist.".format(key))
@@ -42,7 +42,7 @@ for i in getchatrooms():
     roomslist.append(i['NickName'])
 print(roomslist)
 
-wb = openpyxl.load_workbook('StudentList.xlsx')
+wb = openpyxl.load_workbook('./data/StudentList.xlsx')
 print("已打开xlsx文档")
 sht = wb['wechat']
 row = 1

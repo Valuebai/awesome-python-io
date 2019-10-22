@@ -4,7 +4,7 @@
 @IDE    ：PyCharm
 @Author ：LuckyHuibo
 @Date   ：2019/8/26 17:27
-@Desc   ：
+@Desc   ：PS, 用python实现p图
 
 1. 简介：通过调用removebg库去除照片中的背景，也可以通过调用PIL库添加背景，这样可以用来实现证件照的背景颜色更换，比如生成白色、蓝色和红色
 2. 代码流程：输入-要得到的图片背景处理效果 A-切换为红色背景，B-蓝色，C-白色，D-仅去除背景色，输出-得到对应的图片
@@ -23,12 +23,12 @@ from removebg import RemoveBg
 def remove_offical() -> None:
     response = requests.post(
         'https://api.remove.bg/v1.0/removebg',
-        files={'image_file': open('test.jpg', 'rb')},
+        files={'image_file': open('./data/test.jpg', 'rb')},
         data={'size': 'auto'},
         headers={'X-Api-Key': 'UNFDsmLmH6pWpZpqMJA3vwZq'},
     )
     if response.status_code == requests.codes.ok:
-        with open('test-no-bg.png', 'wb') as out:
+        with open('./data/test-no-bg.png', 'wb') as out:
             out.write(response.content)
             print('图片保存成功')
     else:
@@ -36,25 +36,25 @@ def remove_offical() -> None:
 
 
 def remove_one() -> None:
-    rmbg = RemoveBg("UNFDsmLmH6pWpZpqMJA3vwZq", "error.log")  # 引号内是你获取的API
-    rmbg.remove_background_from_img_file("test.jpg")  # 图片地址
+    rmbg = RemoveBg("UNFDsmLmH6pWpZpqMJA3vwZq", "./data/error.log")  # 引号内是你获取的API
+    rmbg.remove_background_from_img_file("./data/test.jpg")  # 图片地址
 
 
 def remove_all() -> None:
-    rmbg = RemoveBg("UNFDsmLmH6pWpZpqMJA3vwZq", "error.log")
+    rmbg = RemoveBg("UNFDsmLmH6pWpZpqMJA3vwZq", "./data/error.log")
     path = '%s/picture' % os.getcwd()  # 图片放到程序的同级文件夹 picture 里面
     for pic in os.listdir(path):
         rmbg.remove_background_from_img_file("%s\%s" % (path, pic))
 
 
 def change2bg() -> None:
-    im = Image.open('test-no-bg.png')
+    im = Image.open('./data/test-no-bg.png')
     x, y = im.size
     try:
         # 使用red来填充背景
         p = Image.new('RGBA', im.size, (255, 0, 0))  # 附一个RGB的颜色对比连接：http://tool.oschina.net/commons?type=3
         p.paste(im, (0, 0, x, y), im)
-        p.save('test-with-bg.png')
+        p.save('./data/test-with-bg.png')
         print('pic save success')
     except:
         pass
@@ -68,7 +68,7 @@ class Imgprocess():
     # removebg: 调用RemoveBg接口并生成去除背景的图片，图片名在原图片名称后加_no_bg.png，
     # 如本实验原图片名称certificate.jpg 生成的去背景图片名称certificate.jpg_no_bg.png
     def removebg(self, img):
-        rmbg = RemoveBg(self.apikey, "error.log")
+        rmbg = RemoveBg(self.apikey, "./data/error.log")
         rmbg.remove_background_from_img_file(img)
 
     # changebg: 调用PIL添加背景颜色
@@ -80,7 +80,7 @@ class Imgprocess():
         try:
             p = Image.new('RGBA', im.size, color=color_dict.get(color))
             p.paste(im, (0, 0, x, y), im)
-            p.save('{}.png'.format('new' + color))
+            p.save('{}.png'.format('./data/new' + color))
         except:
             print('changebg err')
             pass
@@ -90,10 +90,10 @@ def main():
     option = input("pls input your taget img type, A:red B:bule C:white D:justremovebg: \n")
     print(option)
     newimg = Imgprocess("UNFDsmLmH6pWpZpqMJA3vwZq")
-    newimg.removebg("test.jpg")
+    newimg.removebg("./data/test.jpg")
     if option in list('ABC'):
         print('in')
-        newimg.changebg('test.jpg_no_bg.png', option)
+        newimg.changebg('./data/test.jpg_no_bg.png', option)
         print('out')
     else:
         print('done')

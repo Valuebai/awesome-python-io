@@ -52,4 +52,4 @@ task:
 #根据配置文件locust.yml，读取模板生成locustfile文件，然后运行locust执行性能测试，命令如下：
 #
 #$ cd Taffy\Tests
-#$ python test_locust.py
+#$ python run_locust.py

@@ -4,7 +4,8 @@
 @IDE    ：PyCharm
 @Author ：LuckyHuibo
 @Date   ：2019/7/13 13:28
-@Desc   ：Passed，可以直接拿来用
+@Desc   ：利用高德地图查询对应的地铁站经纬度信息，下面的key需要自己去高德官网申请
+Passed，可以直接拿来用
 =================================================='''
 import requests
 
