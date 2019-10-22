@@ -10,13 +10,13 @@ import os
 import yaml
 
 
-def _get_yaml():
+def get_yaml():
     """
     解析yaml
     :return: s  字典
     """
     # 这里填下同一文件夹下的.yaml文件
-    path = os.path.join(os.path.dirname(__file__) + '/ticket_config.yaml')
+    path = os.path.join(os.path.dirname(__file__) + './yaml_ticket_config.yaml')
     try:  # 兼容2和3版本
         with open(path, encoding="utf-8") as f:
             s = yaml.load(f, Loader=yaml.FullLoader)
@@ -27,4 +27,4 @@ def _get_yaml():
 
 
 if __name__ == "__main__":
-    print(_get_yaml())
+    print(get_yaml())

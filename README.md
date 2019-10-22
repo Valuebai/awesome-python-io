@@ -42,6 +42,11 @@ the roadmap of my study and learn from others
 python天天练习，每天都要写代码，即使是手动抄别人的代码!
 
 
+## conf/config配置文件的使用
+
+**详情见conf中的readme.md**
+
+
 ### requirements.txt
 - 生成指南：
 - 第一步：安装包 pip install pipreqs

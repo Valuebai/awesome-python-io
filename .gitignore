@@ -99,7 +99,7 @@ ehthumbs_vista.db
 # Dump file
 *.stackdump
 
-# Folder config file
+# Folder conf file
 [Dd]esktop.ini
 
 # Recycle Bin used on file shares
@@ -353,3 +353,4 @@ fabric.properties
 /web_spider/qiushi01.txt
 /web_spider/qiushit10.txt
 /test-leetcode/testtest.py
+/conf/logs/

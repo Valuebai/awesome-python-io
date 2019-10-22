@@ -4,10 +4,10 @@
 @IDE    ：PyCharm
 @Author ：LuckyHuibo
 @Date   ：2019/8/30 16:51
-@Desc   ：
+@Desc   ：使用get_yaml获取./yaml_ticket_config.yaml的信息，在文件中的具体使用conf["pushbear_conf"]["is_pushbear"]
 =================================================='''
 import requests
-from config.get_yaml import _get_yaml
+from conf.get_yaml import get_yaml
 
 PUSH_BEAR_API_PATH = "https://pushbear.ftqq.com/sub"
 
@@ -18,7 +18,7 @@ def send_push_bear(msg):
     :param msg: 微信模板发送的内容
     :return: None
     '''
-    conf = _get_yaml()
+    conf = get_yaml()
     if conf["pushbear_conf"]["is_pushbear"] and conf["pushbear_conf"]["send_key"].strip() != "":
         try:
             data = {
