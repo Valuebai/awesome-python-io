@@ -94,6 +94,17 @@ def register_plugin(app):
 ========================================================
 python天天练习，每天都要写代码，即使是手动抄别人的代码!
 
+### Flask Blueprint，分隔视图
+**当你的Flask项目膨胀到一定规模的时候， 全部都写到主入口之中。 一定需要按照模块进行拆分。 Blueprint(蓝图)就是这个时候需要使用的东西。**
+
+- [Blueprint 之中使用日志](https://www.flyml.net/2018/12/12/flask-logging-usage-demo/)
+- 完成blueprint框架后，在APP中的blueprint中
+```python
+from flask import current_app
+# 在需要的地方
+current_app.logger.info("simple page info...")
+```
+
 
 ## conf/config配置文件的使用
 
@@ -191,8 +202,10 @@ conda常用命令
 - 检查更新当前conda，conda update conda
 
 
+@[TOC](文章目录) #在CSDN自动生成目录
+
 ## linux部署指南
-**1. linux sh & nohup后台运行脚本**
+### 1. linux sh & nohup后台运行python脚本
   - 1）创建脚本vim run.sh
   - 2）填写内容并保存：nohup python3 -u  run.py > nohup.log 2>&1 &
   - 3）运行：sh run.sh 或者 . run.sh
@@ -208,7 +221,7 @@ conda常用命令
       - & : 最后一个&， 是让该命令在后台执行。
 ```
 
-**2. 使用gunicorn 部署flask服务**
+### 2. 使用gunicorn 部署flask服务 （个人项目推荐使用这个）
   - 1）创建脚本vim gunicorn.sh
   - 2）填写内容并保存：
     - conda activate just_do_it （在linux上创建好自己的环境，可选）
@@ -235,7 +248,7 @@ gunicorn部署Flask服务 https://www.jianshu.com/p/fecf15ad0c9a
 https://www.cnblogs.com/gaidy/p/9784919.html
 ```
 
-**3. 使用screen命令部署**
+### 3. 使用screen命令部署
   - 第一步：screen -S yourname，新建一个叫yourname的session
   - 第二步：python run.py，运行代码，关闭shell连接后还会一直在linux上跑
   - 针对用户量小的情况，快速部署（本次使用这个）
@@ -245,14 +258,18 @@ https://www.cnblogs.com/gaidy/p/9784919.html
     
     https://www.hutuseng.com/article/how-to-kill-all-detached-screen-session-in-linux
 ```
-**4. 使用flask + nginx + uwsgi**
+
+### 4. 使用flask + nginx + uwsgi (不建议，因Flask 与 uWsgi 结合有许多难以处理的 bug)
   - 针对用户访问量大的情况，具体参考下面的文章
     - https://blog.csdn.net/spark_csdn/article/details/80790929
     - https://www.cnblogs.com/Ray-liang/p/4173923.html
     - https://blog.csdn.net/daniel_ustc/article/details/9070357
 
-**5. 使用flask + nginx + gunicorn**
-  - 生产环境很多大公司采用这个方式的，后面有时间再研究
+### 5. 使用flask + nginx + gunicorn （大项目推荐使用这个）
+  - 生产环境很多大公司采用这个方式的，故推荐这个
+  - 因Flask 与 uWsgi 结合有许多难以处理的 bug，故推荐这个
+  - [Flask + Gunicorn + Nginx 部署](https://www.cnblogs.com/Ray-liang/p/4837850.html)
+
 
 
 ## linux上杀死gunicorn的进程
@@ -291,7 +308,7 @@ kill -9 28097
 
 
 ## linux根据端口号查找项目路径方法
-### 只知道端口号
+### 1. 只知道端口号
 1. 首先根据端口号查找进程
 ```
 netstat -nltp
@@ -308,8 +325,9 @@ ps -ef |grep 8567
 ```
 lsof -p 8567
 ```
-### 如果知道项目部署在tomcat里
+### 2. 如果知道项目部署在tomcat里
 如果你的项目在linux 中是部署到tomcat容器里，可以输入下边的命令找到，如下:
 ```
 ps anx|grep tomcat
 ```
+
