@@ -342,8 +342,8 @@ fabric.properties
 /web_spider/spider/
 /web_spider/cookie.json
 /web_spider/geckodriver.log
-/test-database/student.xlsx
-/test-database/qa_user_data.xlsx
+/run_database/student.xlsx
+/run_database/qa_user_data.xlsx
 /test-code/output/
 
 
