@@ -356,3 +356,4 @@ fabric.properties
 /conf/logs/
 /run_test_code/ps_cut_pic/data/
 /run_test_code/wechat/data/
+/run_test_code/input/
