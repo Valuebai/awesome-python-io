@@ -335,3 +335,11 @@ ps anx|grep tomcat
 > https://www.jianshu.com/p/79df9ac88e96
 
 > Pycharm远程连接服务器（windows下远程修改服务器代码），https://blog.csdn.net/zhaihaifei/article/details/53691873
+
+## 【技巧】git查看某个文件的修改历史
+
+> git查看某个文件的修改历史，https://www.cnblogs.com/flyme/archive/2011/11/28/2265899.html
+
+> git log 查看某文件的修改历史，https://www.cnblogs.com/Sir-Lin/p/6064844.html
+
+> Sourcetree右上角
