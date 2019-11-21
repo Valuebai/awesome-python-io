@@ -331,3 +331,7 @@ lsof -p 8567
 ps anx|grep tomcat
 ```
 
+## 【技巧】如何通过pycharm实现远程(linux)代码的调试和开发
+> https://www.jianshu.com/p/79df9ac88e96
+
+> Pycharm远程连接服务器（windows下远程修改服务器代码），https://blog.csdn.net/zhaihaifei/article/details/53691873
