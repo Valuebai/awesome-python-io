@@ -1,5 +1,6 @@
 # Python十分钟入门指南/技术图谱
 
+
 ![Build](https://img.shields.io/badge/Build-passing-brightgreen.svg)
 ![Languages](https://img.shields.io/badge/Languages-Python3.7-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-orange.svg)
@@ -132,6 +133,12 @@ current_app.logger.info("simple page info...")
 - 第三步：下载该代码后直接pip install -r requirements.txt
 - 或者创建虚拟环境安装
 
+## Pycahrm 打开时加载很慢，indexing不停，scan半天的解决方法
+- 笨办法：把大文件夹直接exculeded，这样不影响，被excluded的文件还是可以在程序中用。
+- In pycharm, go to the "File" on the left top, then select "invalidate caches/restart...", and press "invalidate and restart".
+- 知乎：https://www.zhihu.com/question/47427720/answer/106059581
+
+---
 
 ## Ptyhon创建虚拟环境
 
