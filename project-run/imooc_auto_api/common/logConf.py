@@ -63,7 +63,7 @@ class GetLogger:
                 backupCount=30,  # 最多存放日志的数量
                 encoding="UTF-8",  # 使用UTF - 8的编码来写日志
                 delay=False,
-                utc=True  # utc = True: 使用UTC + 0的时间来记录 （一般docker镜像默认也是UTC + 0）
+                #utc=True  # utc = True: 使用UTC + 0的时间来记录 （一般docker镜像默认也是UTC + 0）
             )
 
             file_handler.setLevel(logging.DEBUG)  # 设置日志级别
@@ -87,3 +87,7 @@ if __name__ == "__main__":
     root_path = os.path.abspath(os.path.join(__file__, f"..{sep}..{sep}output{sep}log{sep}"))
     sys.path.append(root_path)
     print(root_path)
+
+    while True:
+        logger.info('每隔X打印一下')
+        time.sleep(60 )
