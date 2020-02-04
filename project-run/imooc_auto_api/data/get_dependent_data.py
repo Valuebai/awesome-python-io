@@ -16,7 +16,7 @@
 
 =================================================='''
 import json
-from util.operation_excel import OperateExcel
+from common.operation_excel import OperateExcel
 from base.runmethod import RunMethod
 from data.get_data import GetData
 from jsonpath_rw import jsonpath, parse

@@ -20,6 +20,8 @@
 import requests
 import json
 
+from common.logConf import logger
+
 
 class RunMethod:
 
@@ -56,6 +58,7 @@ class RunMethod:
 
 
 if __name__ == "__main__":
+    logger.info('INFO日志打印...')
     test = RunMethod()
     url = 'http://httpbin.org/post'
     data = {'key': 'value'}

@@ -7,10 +7,19 @@
 @Desc   ：主函数
 =================================================='''
 
+import os, sys
+# 解决在命令行窗口报错No module named 'base'，需要放在最前面
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
+
+
+
 from base.runmethod import RunMethod
 from data.get_data import GetData
 from data.get_dependent_data import DependentData
-from util.common_util import CommonUtil
+from common.common_util import CommonUtil
+from common.logConf import logger
 
 
 class Main():
@@ -63,5 +72,6 @@ class Main():
 
 
 if __name__ == "__main__":
+    logger.info('INFO日志打印...')
     result = Main().run()
     print(result)
