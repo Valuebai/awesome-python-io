@@ -1,46 +1,81 @@
 # Python十分钟入门指南/技术图谱
 
-
 ![Build](https://img.shields.io/badge/Build-passing-brightgreen.svg)
 ![Languages](https://img.shields.io/badge/Languages-Python3.7-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-orange.svg)
 ![Contributions](https://img.shields.io/badge/Contributions-welcome-ff69b4.svg)
 
-我的学习记录，将学习Python，Test过程中遇到的好项目，好技能，好分享记录下来，方便自己查找使用，也希望对你有帮助~
+我的学习记录，将学习Python过程中遇到的好项目，好技能，好分享记录下来，方便自己查找使用，也希望对你有帮助~
 
 the roadmap of my study and learn from others
 
-## 0. 学习路线
-### Python 学习路径图/思维导图（待更新）
-### Python 开发应用/职业规划选择
-### Python 测试/Web/人工智能/大数据/金融量化
 
-#### Python书籍使用
-看这个就够了：
-[如果有人让你推荐 Python 技术书，请让他看这个列表](https://github.com/jobbole/awesome-python-books)
 
--《图解算法,python实现，回头增加下》
-## 1. 环境安装
+## 环境安装
 - **【Python环境安装与搭建】**
     - 官网下载：[官网下载最新包](https://www.python.org/)
 - **【PyCharm安装】**
     - 官网下载：[官网下载最新包](https://www.jetbrains.com/pycharm/)
     - Google下 PyCharm激活码自行解决
 
-## 2. 基础语法思维导图
+- ./python-ide/：记录python环境的其他说明
+**readme.md记录Ptyhon创建虚拟环境的方法**
 
-## 3. 算法
 
-## Django
-### 学习指南
-#### Django基础
-- **[【Django基础\(1\): Model模型的介绍与设计】](https://mp.weixin.qq.com/s/nmwikIXGwVFN6e0E5FlPEQ)**
+## python思维导图
 
-- [《Python知识手册》](http://liyangbit.com/python-knowledge-handbook/)
 
-## Flask
+## 算法 & 数据结构
+- Leetcode刷题指南101，follow漂亮小姐姐：
+[https://valuebai.github.io/2020/01/01/Leetcode%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97101-follow%E6%BC%82%E4%BA%AE%E5%B0%8F%E5%A7%90%E5%A7%90/](https://valuebai.github.io/2020/01/01/Leetcode%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97101-follow%E6%BC%82%E4%BA%AE%E5%B0%8F%E5%A7%90%E5%A7%90/)
 
-### [Flask官方快速入门文档](http://docs.jinkan.org/docs/flask/quickstart.html#quickstart)
+- ./run_leetcode/：记录学习算法相关代码
+
+
+## 在练习和学习中掌握
+- ./run_test_code/: python天天练, 多写代码，即使是手动抄别人的代码!
+
+
+## 在项目中成长
+- ./project-run/imooc_auto_api/ : API自动化测试框架
+
+
+
+## common & conf常用配置
+- ./common/ : 常用的，好用的，通用的操作
+- conf/config配置文件的使用：**详情见conf中的readme.md**
+
+
+## Requirements
+- 生成指南：
+- 第一步：安装包 pip install pipreqs
+- 第二步：在对应路径cmd，输入命令生成 requirements.txt文件：pipreqs ./ --encoding=utf8 --force 避免中文路径报错
+- 第三步：下载该代码后直接pip install -r requirements.txt
+- 或者创建虚拟环境安装
+
+
+## Pycahrm 打开时加载很慢，indexing不停，scan半天的解决方法
+- 笨办法：把大文件夹直接exculeded，这样不影响，被excluded的文件还是可以在程序中用。
+- In pycharm, go to the "File" on the left top, then select "invalidate caches/restart...", and press "invalidate and restart".
+- 知乎：https://www.zhihu.com/question/47427720/answer/106059581
+
+
+
+
+---
+## Python 两大web框架之Django
+- 大而全，功能极其强大，是Python web框架的先驱，用户多，第三方库极其丰富，多用于中大型网站
+- 比喻：Django类似于精装修的房子，自带豪华家具、非常齐全功能强大的家电，什么都有了，拎包入住即可，十分方便。
+
+> **[Django官方3.0中文指南](https://docs.djangoproject.com/zh-hans/3.0/intro/tutorial01/)**
+
+**++新手学习的话建议先学flask++**
+
+## Python 两大web框架之Flask
+- 轻量级，更多用来快速搭建简单网页，API等，多用于小型网站
+- 比喻：Flask类似于毛坯房，自己想把房子装修成什么样自己找材料，买家具自己装。材料和家具种类非常丰富，并且都是现成免费的，直接拿过去用即可。
+
+> **[Flask官方快速入门文档](http://docs.jinkan.org/docs/flask/quickstart.html#quickstart)**
 
 ### Flask-Script
 
@@ -51,7 +86,7 @@ Flask-Scrip就是这么一个Flask扩展，为Flask程序添加一个命令行�
 **添加自定义shell命令**
 - 例如：对数据库进行操作
 - 解决跨域问题 from flask_cors import CORS
-```python
+```
 
     # app = create_app() 在run.py中调用
 
@@ -92,8 +127,7 @@ def register_plugin(app):
 		swagger.init_app(app)
 ```
 
-========================================================
-python天天练习，每天都要写代码，即使是手动抄别人的代码!
+
 
 ### Flask Blueprint，分隔视图
 **当你的Flask项目膨胀到一定规模的时候， 全部都写到主入口之中。 一定需要按照模块进行拆分。 Blueprint(蓝图)就是这个时候需要使用的东西。**
@@ -107,11 +141,12 @@ current_app.logger.info("simple page info...")
 ```
 
 
-## conf/config配置文件的使用
-
-**详情见conf中的readme.md**
 
 
+
+
+
+---
 ## 本地&线上同步推进
 ### 业务场景
 本地与线上的 Swagger API 文档的接口的地址是不同的，但都依赖同一个配置文件 **`\conf\setting.py`**。<br>
@@ -126,91 +161,10 @@ current_app.logger.info("simple page info...")
 2. 新建 **`/conf/dev.py`** 文件
 
 
-## Requirements
-- 生成指南：
-- 第一步：安装包 pip install pipreqs
-- 第二步：在对应路径cmd，输入命令生成 requirements.txt文件：pipreqs ./ --encoding=utf8 --force 避免中文路径报错
-- 第三步：下载该代码后直接pip install -r requirements.txt
-- 或者创建虚拟环境安装
-
-## Pycahrm 打开时加载很慢，indexing不停，scan半天的解决方法
-- 笨办法：把大文件夹直接exculeded，这样不影响，被excluded的文件还是可以在程序中用。
-- In pycharm, go to the "File" on the left top, then select "invalidate caches/restart...", and press "invalidate and restart".
-- 知乎：https://www.zhihu.com/question/47427720/answer/106059581
-
----
-
-## Ptyhon创建虚拟环境
-
-### 方法一：自带命令
-1. 进入文件夹目录
-2. python -m venv -h 可查看帮助信息
-3. 下面的
-```
-Linux运行命令行
-$ 创建默认环境：python3 -m venv my_venv 
-$ 创建指定环境：python3.6 -m venv  my_venv,  python2 -m venv  my_venv(添加到系统环境变量中)
-$ 激活环境：. my_venv/bin/activate  (. 或者 source )
-$ 退出环境：deactivate 
-
-Windows系统运行cmd，使用 "py" Python 启动器命令配合 "-m" 开关选项:
-$ 创建环境：py -3 -m venv my_venv (或者python -m venv my_venv)
-$ 创建指定环境：py -3.6 -m venv my_venv,  py -3.7 -m venv my_venv (添加到系统环境变量中)
-$ 激活环境：my_venv\Scripts\activate.bat
-$ 退出环境：deactivate
-
-执行后，会在目录前方出现<my_venv>表明已进入虚拟环境
-
-安装项目:
-$ pip install -r requirements.txt
-```
-
-### 方法二：Windows在PyCharm下创建虚拟环境
-1. 安装并激活PyCharm
-这个请自行安装
-官方地址：https://www.jetbrains.com/pycharm/
-
-2. 在PyCharm下创建虚拟环境
-第一步：点击New Project
-第二步：选择下图的New environment
-第三步：点击create即可
-pycharm会为新创建的项目自动建立一个虚拟环境
-
-
-### 方法三：conda创建虚拟环境
-
-[anaconda中的常用操作](https://blog.csdn.net/CampusAmour/article/details/83215524)
-
-
-Linux下启动其终端命令行 
-$ source ~/anaconda3/bin/activate root
-$ anaconda-navigator
-
-- 创建虚拟环境，conda create -n env_name python=3.6
-
-- 同时安装必要的包，conda create -n env_name numpy matplotlib python=3.6
-
-- 激活虚拟环境
-  - Linux：source activate your_env_name(虚拟环境名称)
-  - Windows：activate your_env_name(虚拟环境名称)
-
-- 退出虚拟环境： 
-  - Linux：source deactivate your_env_name(虚拟环境名称)
-  - Windows：deactivate your_env_name(虚拟环境名称)
-
-- 删除虚拟环境，conda remove -n your_env_name(虚拟环境名称) --all
-- 删除包使用命令，conda remove --name $your_env_name  $package_name（包名)
-
-
-conda常用命令
-- 查看已安装的包，conda list
-- 安装包，conda install package_name(包名)
-- 查看当前存在的虚拟环境，conda env list 或 conda info -e
-- 检查更新当前conda，conda update conda
 
 
 @[TOC](文章目录) #在CSDN自动生成目录
-
+---
 ## linux部署指南
 ### 1. linux sh & nohup后台运行python脚本
   - 1）创建脚本vim run.sh
@@ -350,3 +304,20 @@ ps anx|grep tomcat
 > git log 查看某文件的修改历史，https://www.cnblogs.com/Sir-Lin/p/6064844.html
 
 > Sourcetree右上角
+
+
+```
+该完善区域
+## 0. 学习路线
+### Python 学习路径图/思维导图（待更新）
+### Python 开发应用/职业规划选择
+### Python 测试/Web/人工智能/大数据/金融量化
+
+#### Python书籍使用
+看这个就够了：
+[如果有人让你推荐 Python 技术书，请让他看这个列表](https://github.com/jobbole/awesome-python-books)
+
+-《图解算法,python实现，回头增加下》
+
+- [《Python知识手册》](http://liyangbit.com/python-knowledge-handbook/)
+```
