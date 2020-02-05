@@ -23,7 +23,6 @@ from logging.handlers import TimedRotatingFileHandler
 class GetLogger:
     sep = os.sep  # 自动匹配win,mac,linux 下的路径分隔符
     set_log_path = os.path.abspath(os.path.join(__file__, f"..{sep}..{sep}output{sep}logs{sep}"))  # 设置日志保存路径
-    print(set_log_path)
 
     def __init__(self, logs_dir=set_log_path, logs_level=logging.INFO):
 
@@ -85,5 +84,5 @@ if __name__ == "__main__":
 
     sep = os.sep
     root_path = os.path.abspath(os.path.join(__file__, f"..{sep}..{sep}output{sep}log{sep}"))
-    sys.path.append(root_path)
-    print(root_path)
+    # sys.path.append(root_path)
+    print('测试Log路径：', root_path)
