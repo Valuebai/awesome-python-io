@@ -14,7 +14,7 @@ from unittest import mock  # Python3.x中本身就自带了Mock库
 
 
 # 注意，不要命名为mock_test，不然在pycharm中会当做单元测试的
-def mock_ts(request_data, url, method, response_data):
+def mock_run(request_data, url, method, response_data):
     mock_method = mock.Mock(return_value=response_data)
     mock_res = mock_method(url, method, request_data)
     return mock_res

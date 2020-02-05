@@ -20,13 +20,14 @@
 import requests
 import json
 
-from common.logConf import logger
+
+# from common.logConf import logger
 
 
 class RunMethod:
 
     # 定义requests的post函数
-    def post_main(self, url, data, header=None):
+    def send_post(self, url, data, header=None):
         res = None
         if header != None:
             res = requests.post(url=url, data=data, headers=header)
@@ -35,7 +36,7 @@ class RunMethod:
         return res.json()
 
     # 定义requests的get函数
-    def get_main(self, url, data=None, header=None):
+    def send_get(self, url, data=None, header=None):
         res = None
         if header != None:
             res = requests.get(url=url, data=data, headers=header, verify=False)  # 忽略对 SSL 证书的验证
@@ -49,19 +50,21 @@ class RunMethod:
         method = method.upper()  # 将请求方式转为大写，防止写错为get
 
         if method == 'POST':
-            res = self.post_main(url, data, header)
+            res = self.send_post(url, data, header)
         elif method == 'GET':
-            res = self.get_main(url, data, header)
+            res = self.send_get(url, data, header)
         else:
             print('您输入的method不对，只能处理GET和POST的')
         return json.dumps(res, ensure_ascii=False)
 
 
 if __name__ == "__main__":
-    logger.info('INFO日志打印...')
+    # logger.info('INFO日志打印...')
+    test = RunMethod()
     test = RunMethod()
     url = 'http://httpbin.org/post'
     data = {'key': 'value'}
     result = test.run_main('POST', url, data=data)
     print('POST:', result)
     print('GET:', test.run_main('GET', 'http://httpbin.org/get'))
+

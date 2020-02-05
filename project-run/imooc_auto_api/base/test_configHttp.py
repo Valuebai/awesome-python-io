@@ -9,12 +9,12 @@
 使用unittest来组织测试、添加测试用例和断言，
 测试报告可以下载HTMLTestRunner.py并放在python安装路径lib下即可
 =================================================='''
+import json
 import unittest
-import os
 import HTMLTestRunner
 
-from demo import RunMain
-from mock_demo import mock_ts
+from configHttp import RunMethod
+from mock_demo import mock_run
 from datetime import datetime
 
 
@@ -25,24 +25,20 @@ class TestMethod(unittest.TestCase):
         # self.run = RunMain()
 
     # 使用requests的post请求，断言成功
+    # @unittest.skip('test_01')
     def test_01(self):
-        url = 'http://coding.imooc.com/api/cate'
-        data = {
-            'timestamp': '1507034803124',
-            'uid': '5249191',
-            'uuid': '5ae7d1a22c82fb89c78f603420870ad7',
-            'secrect': '078474b41dd37ddd5efeb04aa591ec12',
-            'token': '7d6f14f21ec96d755de41e6c076758dd',
-            'cid': '0',
-            'errorCode': 1007
-        }
+        url = 'http://httpbin.org/post'
+        data = {'key': 'value'}
+        go = RunMethod()
+        res = go.run_main(method='POST', url=url, data=data)  # 返回的是json格式
+        res = json.loads(res)  # 需要将json解码为字典
+        print('test_01:', type(res))
+        print('url is:', res['url'])
 
-        res = RunMain('POST', url, data).res
-        print('test_01:', res)
-        self.assertEqual(res['errorCode'], 1007, "测试成功")
+        self.assertEqual(res['url'], "http://httpbin.org/post")
 
     # 忽略不执行
-    @unittest.skip('test_02')
+    # @unittest.skip('test_02')
     def test_02(self):
         url = 'http://coding.imooc.com/api/cate'
         data = {
@@ -51,14 +47,16 @@ class TestMethod(unittest.TestCase):
             'uuid': '5ae7d1a22c82fb89c78f603420870ad7',
             'secrect': '078474b41dd37ddd5efeb04aa591ec12',
             'token': '7d6f14f21ec96d755de41e6c076758dd',
-            'cid': '0'
-
+            'cid': '0',
+            'errorCode': 1001
         }
-
-        res = self.run.run_main(url, 'GET', data)
+        go = RunMethod()
+        res = go.run_main('GET', url, data)
+        res = json.loads(res)
         self.assertEqual(res['errorCode'], 1006, "测试失败")
 
     # 使用mock进行测试，断言成功
+    # @unittest.skip('test_03')
     def test_03(self):
         url = 'http://coding.imooc.com/api/cate'
         data = {
@@ -71,8 +69,9 @@ class TestMethod(unittest.TestCase):
             'errorCode': 1001
         }
 
-        res = mock_ts(data, url, 'POST', data)
-        print('test_02:', res)
+        res = mock_run(data, url, 'POST', data)
+        print('test_03:', res)
+        print(type(res['errorCode']), ' and ', res['errorCode'])
         self.assertEqual(res['errorCode'], 1001, "测试成功")
 
     def tearDown(self):

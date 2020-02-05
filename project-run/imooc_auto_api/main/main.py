@@ -8,14 +8,13 @@
 =================================================='''
 
 import os, sys
+
 # 解决在命令行窗口报错No module named 'base'，需要放在最前面
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
 sys.path.append(rootPath)
 
-
-
-from base.runmethod import RunMethod
+from base.configHttp import RunMethod
 from data.get_data import GetData
 from data.get_dependent_data import DependentData
 from common.common_util import CommonUtil

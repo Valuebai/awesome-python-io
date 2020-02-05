@@ -147,20 +147,10 @@ current_app.logger.info("simple page info...")
 
 
 ---
-## 本地&线上同步推进
-### 业务场景
-本地与线上的 Swagger API 文档的接口的地址是不同的，但都依赖同一个配置文件 **`\conf\setting.py`**。<br>
-而个人项目有着本地和线上同步，开发和测试同步的需求，会不断修改 **`\conf\setting.py`** 文件，无法用 **`.gitignore`** 做到忽略配置文件，本地和线上配置隔离的效果。 
+## 持续集成
+- Jenkins CI: https://www.cnblogs.com/cnkemi/p/9051910.html
 
-### 解决
-**`本地`** 和 **`线上`** 自动根据所处的环境(由 .gitignore 控制)不同，选择不同的配置文件。<br>
-那么， **`本地`** 可以比 **`线上`** 多了 **`conf/dev.py`** 文件; 基于该文件的存在与否，可以用 **`if else`** 控制 **`conf/`** 中配置输出。
-
-### Demo
-1. `echo "/conf/dev.py" >> .gitignore` # 追加 Git 忽略提交配置到 .gitignore
-2. 新建 **`/conf/dev.py`** 文件
-
-
+- Gitlab CI: https://blog.crazyphper.com/2019/10/26/python%E6%8E%A5%E5%8F%A3%E8%A6%86%E7%9B%96%E7%8E%87%E9%9B%86%E6%88%90gitlab-ci%E8%A1%8C%E5%8A%A8%E6%8C%87%E5%8D%97/
 
 
 @[TOC](文章目录) #在CSDN自动生成目录

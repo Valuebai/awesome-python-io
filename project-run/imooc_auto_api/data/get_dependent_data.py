@@ -17,9 +17,10 @@
 =================================================='''
 import json
 from common.operation_excel import OperateExcel
-from base.runmethod import RunMethod
+from common.logConf import logger
+from base.configHttp import RunMethod
 from data.get_data import GetData
-from jsonpath_rw import jsonpath, parse
+from jsonpath_rw import parse
 
 
 class DependentData():
@@ -48,11 +49,11 @@ class DependentData():
     # 根据依赖的key获取case依赖字段的相应后返回
     def get_data_from_key(self, row):
         depend_key = GetData().get_depend_key(row)
-        print(depend_key)
-        print(type(depend_key))
+        logger.info(depend_key)
+        logger.info(type(depend_key))
         response_data = self.run_dependent()
-        print('222:',response_data)
-        print(type(response_data))
+        logger.info('response_data:', response_data)
+        logger.info('response_data<type>:', type(response_data))
         # json_exe = parse(depend_key)
         # madle = json_exe.find(response_data)
         #
@@ -87,5 +88,5 @@ if __name__ == "__main__":
     res = "data.out_trade_no"
     json_exe = parse(res)
     madle = json_exe.find(order)
-    print(madle)
-    print([math.value for math in madle][0])
+    logger.info(madle)
+    logger.info([math.value for math in madle][0])
