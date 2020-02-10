@@ -15,7 +15,7 @@ db.db_name
 =================================================='''
 import yaml
 
-from conf.logConf import logger
+from conf.log_config import logger
 
 
 class GetDBYaml:
