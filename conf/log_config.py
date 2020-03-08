@@ -77,9 +77,6 @@ class GetLogger:
 
         # 设置日志的输出级别
         log_logger.setLevel(self.logs_level)
-        print('111', log_logger.handlers)
-        for handler in log_logger.handlers:
-            print(handler)
         if log_logger.handlers == []:  # 避免重复日志
             # 创建一个handler，用于输出到cmd窗口控制台
             console_handler = logging.StreamHandler()

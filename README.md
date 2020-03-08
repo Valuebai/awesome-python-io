@@ -1,7 +1,7 @@
 # Python十分钟入门指南/技术图谱
 
 ![Build](https://img.shields.io/badge/Build-passing-brightgreen.svg)
-![Languages](https://img.shields.io/badge/Languages-Python3.7-green.svg)
+![Languages](https://img.shields.io/badge/Languages-Python3.6.5-blue)
 ![License](https://img.shields.io/badge/License-MIT-orange.svg)
 ![Contributions](https://img.shields.io/badge/Contributions-welcome-ff69b4.svg)
 
@@ -9,7 +9,9 @@
 
 the roadmap of my study and learn from others
 
-
+# TO Do
+【基于flask框架的自动化接口测试平台】https://github.com/mingli95/auto_ceshi_web
+【django2 +requests+ddt+unittest+HTMLestRunner接口自动化测试平台】https://github.com/PyGuojun/Interface_TestPlatform
 
 ## 环境安装
 - **【Python环境安装与搭建】**
@@ -154,6 +156,50 @@ current_app.logger.info("simple page info...")
 
 
 @[TOC](文章目录) #在CSDN自动生成目录
+
+# deploy
+
+## Ptyhon创建虚拟环境
+
+### 方法一：自带命令
+1. 进入文件夹目录
+2. python -m venv -h 可查看帮助信息
+3. 下面的
+```
+Linux运行命令行
+$ 创建默认环境：python3 -m venv my_venv 
+$ 创建指定环境：python3.6 -m venv  my_venv,  python2 -m venv  my_venv(添加到系统环境变量中)
+$ 激活环境：. my_venv/bin/activate  (. 或者 source )
+$ 退出环境：deactivate 
+
+Windows系统运行cmd，使用 "py" Python 启动器命令配合 "-m" 开关选项:
+$ 创建环境：py -3 -m venv my_venv (或者python -m venv my_venv)
+$ 创建指定环境：py -3.6 -m venv my_venv,  py -3.7 -m venv my_venv (添加到系统环境变量中)
+$ 激活环境：my_venv\Scripts\activate.bat
+$ 退出环境：deactivate
+
+执行后，会在目录前方出现<my_venv>表明已进入虚拟环境
+
+安装项目:
+$ pip install -r requirements.txt
+```
+
+### 方法二：Windows在PyCharm下创建虚拟环境
+1. 安装并激活PyCharm
+这个请自行安装
+官方地址：https://www.jetbrains.com/pycharm/
+
+2. 在PyCharm下创建虚拟环境
+第一步：点击New Project
+第二步：选择下图的New environment
+第三步：点击create即可
+pycharm会为新创建的项目自动建立一个虚拟环境
+
+
+### 方法三：conda创建虚拟环境
+
+[anaconda中的常用操作](https://blog.csdn.net/CampusAmour/article/details/83215524)
+
 ---
 ## linux部署指南
 ### 1. linux sh & nohup后台运行python脚本
@@ -311,3 +357,8 @@ ps anx|grep tomcat
 
 - [《Python知识手册》](http://liyangbit.com/python-knowledge-handbook/)
 ```
+
+
+## 其他
+
+- 最详细的Windows平台安装MongoDB教程 https://www.cnblogs.com/TM0831/p/10606624.html

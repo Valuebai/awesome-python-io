@@ -50,7 +50,7 @@ flask项目大致结构，使用windows-cmd，tree命令生成
 
 **创建在conf路径下logConf.py，在flask中的入口文件run.py中，或者AA.py文件中，直接导入使用**
 ```python
-from conf.logConf import logger
+from conf.log_config import logger
 
 # 在具体需要的地方
 logger.info('开始连接数据库...')
