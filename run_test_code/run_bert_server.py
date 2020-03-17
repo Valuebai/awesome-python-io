@@ -4,14 +4,11 @@
 # @Software: PyCharm
 # @Author  : https://github.com/Valuebai/
 """
-    <moudule>.name
+    bert-as-serving的使用
     ~~~~~~~~~~~~~~~
 
-    描述这个文件是干嘛的
-
-    Usage Example
-    -------------
-    ::
+    1. 调用远程Linux部署好的bert-as-serving服务
+    2. 使用bert和sklearn的cosine_similarity计算两个词的相似度
 """
 
 from bert_serving.client import BertClient
@@ -20,33 +17,47 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 class Encoding(object):
     def __init__(self):
-        self.server_ip = "localhost"
-        print('1')
-        self.bert_client = BertClient(ip=self.server_ip, port=5555, port_out=5556, timeout=10000)
-        print('2')
+        self.server_ip = "111.229.74.215"  # 调用远程部署好的bert-as-serving服务的机器IP
+        # self.server_ip = "localhost"   # 调用本地远程部署好的bert-as-serving服务
+        print('1. star BertClient')
+        self.bert_client = BertClient(ip=self.server_ip, port=5555, port_out=5556, timeout=20000)
+        print('2. end BertClient')
 
-    def encode(self, query):
+    def encode(self, query: str):
+        """
+        对输入的a list of strings to a list of vectors
+        :param query: str,下面做了处理为a list of strings
+        :return: 向量
+        """
         tensor = self.bert_client.encode([query])
         return tensor
 
     def query_similarity(self, query_list):
+        """
+        查询输入列表的词的相似度
+        :param query_list:如["孔子", "珠穆朗玛峰"]
+        :return:返回概率大小0-100，概率越大，相似度越高
+        """
         tensors = self.bert_client.encode(query_list)
         return cosine_similarity(tensors)[0][1]
 
-    def test1(self, base_text, compared_text):
-        tensors = self.bert_client.encode([str(base_text), str(compared_text)])
+    def cosine_two_words(self, base_text: str, compared_text: str):
+        """
+        用cosine计算2个词之间的相似度
+        :param base_text: 想比较的词
+        :param compared_text: 被比较的词
+        :return: 返回概率大小0-100，概率越大，相似度越高
+        """
+        tensors = self.bert_client.encode([base_text, compared_text])
         return cosine_similarity(tensors)[0][1]
 
-    def test2(self, base_text, compared_text):
-        tensors = self.bert_client.encode([base_text,compared_text])
-        return cosine_similarity(tensors)[0][1]
 
 if __name__ == "__main__":
     ec = Encoding()
-    print(ec.encode("中国"))
+    print(ec.encode("孔子").shape)
     print(ec.encode("美国").shape)
-    print("中国和美国的向量相似度:", ec.query_similarity(["中国", "美国"]))
-    print("中国和地球的向量相似度:", ec.query_similarity(["中国", "地球"]))
-    print("美国和地球的向量相似度:", ec.query_similarity(["美国", "地球"]))
+    print("孔子和珠穆朗玛峰的向量相似度:", ec.query_similarity(["孔子", "珠穆朗玛峰"]))
+    print("中国和孔子的向量相似度:", ec.query_similarity(["中国", "孔子"]))
+    print("中国和香港的向量相似度:", ec.query_similarity(["中国", "香港"]))
 
-    print(ec.test2('中国','美国'))
+    print(ec.cosine_two_words('中国', '美国'))
