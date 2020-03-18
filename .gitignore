@@ -358,3 +358,8 @@ fabric.properties
 /run_test_code/wechat/data/
 /run_test_code/input/
 /run_test_code/NLP-Textfilter
+/project-run/imooc_auto_api/output/report/
+/project-run/imooc_auto_api/output/logs/
+
+/output/
+/logs/

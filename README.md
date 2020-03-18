@@ -9,9 +9,6 @@
 
 the roadmap of my study and learn from others
 
-# TO Do
-【基于flask框架的自动化接口测试平台】https://github.com/mingli95/auto_ceshi_web
-【django2 +requests+ddt+unittest+HTMLestRunner接口自动化测试平台】https://github.com/PyGuojun/Interface_TestPlatform
 
 ## 环境安装
 - **【Python环境安装与搭建】**
@@ -155,7 +152,6 @@ current_app.logger.info("simple page info...")
 - Gitlab CI: https://blog.crazyphper.com/2019/10/26/python%E6%8E%A5%E5%8F%A3%E8%A6%86%E7%9B%96%E7%8E%87%E9%9B%86%E6%88%90gitlab-ci%E8%A1%8C%E5%8A%A8%E6%8C%87%E5%8D%97/
 
 
-@[TOC](文章目录) #在CSDN自动生成目录
 
 # deploy
 
