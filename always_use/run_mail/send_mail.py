@@ -167,7 +167,7 @@ class BaseMail(object):
         msg['Subject'] = self.setSubject(subject)
         msg['From'] = self.__sender + " <" + self.__sender + ">"
         # 判断是否使用新的收件人
-        if mail_receiver is None:
+        if mail_receiver_list is None:
             set_mail_receiver = self.__receiver
         else:
             set_mail_receiver = mail_receiver_list
