@@ -7,7 +7,7 @@
     <mail>.$ {发送邮件}
     ~~~~~~~~~~~~~~~
 
-    分为[mail_config.py]配置文件和[send_mail.py]调用发送文件
+    分为[mail_config.py]配置文件和[send_mail.py]调用发送文件, 可发送附件1，html附件2，图片附件3，多个附件List
 
     1. SMTP是发送邮件的协议，Python内置对SMTP的支持，可以发送纯文本邮件、HTML邮件以及带附件的邮件；
     2. Python对SMTP支持有smtplib和email两个模块，email负责构造邮件，smtplib负责发送邮件；
@@ -18,10 +18,17 @@
     Usage Example
     -------------
     :: 1. 在mail_config 设置相关信息
-    :: 2. 代码中用的是print, 可全局替换为日志的 logger
-    :: 3. 调用时导入模块, 注意修改import的路径
+    :: 2. 代码中用的是print，可全局替换为日志的 logger
+    :: 3. 调用时导入模块
+    # 发送1-3个附件
     BaseMail().sendEmail(subject='新标题', text='正文内容', attach_file_path='./test地球日志.txt',
                          mail_receiver_list=["aa@foxmail.com", "bb@qq.com"])
+
+    # 发送多个附件
+    BaseMail().sendEmail(subject='[Test]发送附件', content='', attack_files_list=['../outputs/result_apk_meiju.json',
+                                                                              '../outputs/result_apk_meiju.html',
+                                                                              '../outputs/apk_pie_chart_meiju.png'],
+                         mail_receiver_list=["xx@qq.com"])
 """
 
 import os
@@ -44,7 +51,7 @@ class BaseMail(object):
         self.__sender = mail_sender
         self.__receiver = mail_receiver
         self.__subject = mail_subject
-        self.__text = mail_content_text
+        self.__content = mail_content_text
         self.__attach_path = path_mail_attachment
 
     # 设置邮件标题
@@ -56,11 +63,11 @@ class BaseMail(object):
         return subject
 
     # 设置邮件正文
-    def setText(self, text):
+    def setContent(self, content):
         # 如果传入为空，读取默认的
-        if not text:
-            text = self.__text
-        text = MIMEText(text, 'plain', 'utf-8')
+        if not content:
+            content = self.__content
+        text = MIMEText(content, 'plain', 'utf-8')
         return text
 
     # 设置文件作为邮件附件
@@ -88,41 +95,43 @@ class BaseMail(object):
         # encode：一般是utf - 8，用于保证多语言的兼容性。
         text = MIMEText(file_data, 'base64', 'utf-8')
         text["Content-Type"] = 'application/octet-stream'
-        # 以下附件可以重命名成aaa.txt or other name
-        # text_att["Content-Disposition"] = 'attachment; filename="aaa.txt"'
-        # 另一种实现方式
         text.add_header('Content-Disposition', 'attachment', filename=os.path.basename(source_file_path))
 
         return text
 
     # 设置邮件html文件作为附件
     @staticmethod
-    def setHtmlFile(html_content, set_html_name):
+    def setHtmlFile(html_path):
         """
 
         Args:
-            html_content: 读取的html内容
-            set_html_name:  设置html附件要显示的名字
+            html_path: html的路径
 
         Returns: MIMEText 构造对象
-
         """
-        text_html = MIMEText(html_content, 'html', 'utf-8')
-        text_html["Content-Disposition"] = "attachment; filename='" + set_html_name + "'"
+        # 如果路径为空，返回空
+        if not html_path:
+            return None
+        try:
+            with open(html_path, 'rb') as f:
+                image_data = f.read()
+        except Exception as e:
+            print("setImageFile()读取图片失败!" + '\n' + '异常信息:{}'.format(e))
+            return None
+        text_html = MIMEText(image_data, 'html', 'utf-8')
+        text_html.add_header('Content-Disposition', 'attachment', filename=os.path.basename(html_path))
 
         return text_html
 
     # 设置图片作为邮件附件
     @staticmethod
-    def setImageFile(source_image_path, set_image_name):
+    def setImageFile(source_image_path):
         """
 
         Args:
             source_image_path: 读取的图片路径
-            set_image_name: 设置image附件要显示的名字, 默认为空，
 
         Returns: MIMEImage构造对象
-
         """
         # 如果路径为空，返回空
         if not source_image_path:
@@ -135,27 +144,26 @@ class BaseMail(object):
             return None
         image = MIMEImage(image_data)
         image.add_header("Content-ID", "<image1>")
-        image.add_header("Content-Disposition", "attachment", filename=set_image_name)
+        image.add_header("Content-Disposition", "attachment", filename=os.path.basename(source_image_path))
 
         return image
 
     # 发送邮件
-    def sendEmail(self, subject, text, attach_file_path=None, attach_picture_path=None, attach_picture_name=None,
-                  attach_html_content=None, attach_html_name=None, mail_receiver_list=None):
+    def sendEmail(self, subject, content, attach_file_path=None, attach_picture_path=None, attach_html_path=None,
+                  attack_files_list=None, mail_receiver_list=None):
         """
-        smtplib模块主要负责发送邮件：是一个发送邮件的动作，连接邮箱服务器，登录邮箱，发送邮件（有发件人，收信人，邮件内容）。
 
-        email模块主要负责构造邮件：指的是邮箱页面显示的一些构造，如发件人，收件人，主题，正文，附件等。
+        smtplib 模块主要负责发送邮件：是一个发送邮件的动作，连接邮箱服务器，登录邮箱，发送邮件（有发件人，收信人，邮件内容）。
+        email   模块主要负责构造邮件：指的是邮箱页面显示的一些构造，如发件人，收件人，主题，正文，附件等。
 
         Args:
-            subject: 必填，邮件的标题
-            text:    必填，邮件的正文
-            attach_file_path:       选填，邮件的附件.所在的地址
-            attach_picture_path:    选填，邮件的图片.所在的地址
-            attach_picture_name:    选填，邮件的图片.附件显示的名字
-            attach_html_content:    选填，邮件的html.所在的地址
-            attach_html_name:       选填，邮件的html.附件显示的名字
-            mail_receiver_list:     选填，重新设置新的收件人，否则使用配置的, 如["xx@qq.com","bb@qq.com"]
+            subject: 必填，邮件的标题，str
+            content:    必填，邮件的正文，str
+            attach_file_path:       选填，邮件的附件.所在的地址，添加单个附件，str
+            attach_picture_path:    选填，邮件的图片.所在的地址，添加单个附件，str
+            attach_html_path:       选填，邮件的html.所在的地址，添加单个附件，str
+            attack_files_list:      选填，邮件的附件.所在的地址，添加多个附件，list,如["aa.txt","bb.txt"]
+            mail_receiver_list:     选填，list，重新设置新的收件人，否则使用配置的, 如["xx@qq.com","bb@qq.com"]
 
         MIMEMultipart有三种类型：multipart/alternative, multipart/related和multipart/mixed。
             - 邮件类型为"multipart/alternative"的邮件包括纯文本正文（text/plain）和超文本正文（text/html）。
@@ -174,16 +182,20 @@ class BaseMail(object):
         msg['To'] = ','.join(set_mail_receiver)
 
         # 添加邮件的正文
-        msg.attach(self.setText(text))
-        # 添加邮件-文件附件
+        msg.attach(self.setContent(content))
+        # 添加邮件文件附件（单个）
         if attach_file_path:
             msg.attach(self.setFile(attach_file_path))
-        # 添加图片作为附件
+        # 添加图片作为附件（单个）
         if attach_picture_path:
-            msg.attach(self.setImageFile(attach_picture_path, attach_picture_name))
-        # 添加邮件的html，由变量控制
-        if attach_html_content:
-            msg.attach(self.setHtmlFile(attach_html_content, attach_html_name))
+            msg.attach(self.setImageFile(attach_picture_path))
+        # 添加邮件的html（单个）
+        if attach_html_path:
+            msg.attach(self.setHtmlFile(attach_html_path))
+        # 添加邮件文件附件（多个）
+        if attack_files_list:
+            for file in attack_files_list:
+                msg.attach(self.setFile(file))
 
         # 发送邮件
         sm = smtplib.SMTP()
@@ -200,5 +212,11 @@ class BaseMail(object):
 
 
 if __name__ == "__main__":
-    BaseMail().sendEmail(subject='', text='', attach_file_path='./test地球日志.txt',
-                         mail_receiver_list=["luhuibo306@foxmail.com", "123456@qq.com"])
+    # BaseMail().sendEmail(subject='[Test]发送附件', content='', attach_file_path='../outputs/result_apk_meiju.json',
+    #                      attach_html_path='../outputs/result_apk_meiju.html',
+    #                      attach_picture_path='../outputs/apk_pie_chart_meiju.png',
+    #                      mail_receiver_list=["xx@qq.com"])
+    BaseMail().sendEmail(subject='[Test]发送附件', content='', attack_files_list=['../outputs/result_apk_meiju.json',
+                                                                              '../outputs/result_apk_meiju.html',
+                                                                              '../outputs/apk_pie_chart_meiju.png'],
+                         mail_receiver_list=["xx@qq.com"])
