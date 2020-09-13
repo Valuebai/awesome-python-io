@@ -2,16 +2,13 @@ import requests
 import json
 import xlwt
 import time
-import pandas as pd
 
-
-# 获取论文的id
 
 def get_id_list(q_search_words="泰国学习者", page_num=30):
     """
     获取万方搜索关键字的所有论文ID，默认搜索关键词=泰国学习者，如要其他的，在调用时修改传参即可
     :param q_search_words:搜索关键词
-    :page_num:获取页面数
+    :param page_num:获取页面数
     :return: list
     """
     url = 'http://www.wanfangdata.com.cn/searchResult/getCoreSearch.do?d=0.9156013761938864'
@@ -140,7 +137,8 @@ if __name__ == '__main__':
     # all_article_list = get_id_list()
     # all_article_list = get_id_list(q_search_words="语文")
     # all_article_list = get_id_list(q_search_words="人工智能", page_num=50)
-    all_article_list = get_id_list(q_search_words="人工智能", page_num=2)
+    # all_article_list = get_id_list(q_search_words="人工智能", page_num=200)
+    all_article_list = get_id_list(q_search_words="人工智能", page_num=500)
     article_data_json = get_thesis_abstact(all_article_list)
     json_to_excel(article_data_json)  # 这里的函数里面没有return，可以直接调用
     # 跑完一次结果，就重新重名excel文件名，防止再次跑时报错
