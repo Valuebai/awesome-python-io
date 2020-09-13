@@ -32,14 +32,20 @@ def get_id_list(q_search_words="泰国学习者", page_num=30):
             "searchWay": "AdvancedSearch",
             "corePerio": "false",
         }
-
-        session = requests.session()
-        res = session.post(url, data=datas, headers=headers)
-        data = res.content.decode()
-        info = json.loads(data)
-        for thesisnum in info['pageRow']:
-            id_list.append(thesisnum['id'][13:])
-        print('第{}页:'.format(page_id), data)
+        try:
+            session = requests.session()
+            res = session.post(url, data=datas, headers=headers)
+            data = res.content.decode()
+            # print(data)
+            info = json.loads(data)
+            if not info['pageRow']:
+                continue
+            else:
+                for thesisnum in info['pageRow']:
+                    id_list.append(thesisnum['id'][13:])
+                print('第{}页:'.format(page_id), data)
+        except Exception as e:
+            print(e)
 
     return id_list
 
@@ -138,7 +144,7 @@ if __name__ == '__main__':
     # all_article_list = get_id_list(q_search_words="语文")
     # all_article_list = get_id_list(q_search_words="人工智能", page_num=50)
     # all_article_list = get_id_list(q_search_words="人工智能", page_num=200)
-    all_article_list = get_id_list(q_search_words="人工智能", page_num=500)
+    all_article_list = get_id_list(q_search_words="python", page_num=2000)
     article_data_json = get_thesis_abstact(all_article_list)
     json_to_excel(article_data_json)  # 这里的函数里面没有return，可以直接调用
     # 跑完一次结果，就重新重名excel文件名，防止再次跑时报错
