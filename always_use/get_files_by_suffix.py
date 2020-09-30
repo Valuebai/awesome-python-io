@@ -12,7 +12,7 @@ def get_files_by_suffix(path, suffix_name):
     """
     获取指定路径下所有带有.xxx后缀名的文件
     Args:
-        path: 指定的文件夹路径
+        path: 指定的文件夹路径，如 path='./input/'，后面要加/
         suffix_name: 固定格式，为 suffix_name=".apk"
 
     Returns: files of list
